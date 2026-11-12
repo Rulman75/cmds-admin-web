@@ -1,0 +1,9 @@
+node_modules/
+**/node_modules/
+.env
+backend/.env
+frontend/.env
+*.log
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,6178 @@
+{
+  "educa_apps": [
+    {
+      "APLI_COD": "117",
+      "APLI_DESC": "SIGE",
+      "APLI_LABEL": "SIGE",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_ICONO": "SAE.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "144",
+      "APLI_DESC": "Recaudacion",
+      "APLI_LABEL": "Recaudacion",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "186",
+      "APLI_DESC": "Libro de Clases Digital",
+      "APLI_LABEL": "Libro de Clases Digital",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "19",
+      "APLI_DESC": "Establecimiento",
+      "APLI_LABEL": "Establecimiento",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_ICONO": "Establecimiento.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "196",
+      "APLI_DESC": "Informe Dinamico",
+      "APLI_LABEL": "Informe Dinamico",
+      "APLI_PADRE": "",
+      "APLI_LINK": "control_generar_informes_dinamicos",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "216",
+      "APLI_DESC": "Programa de Integracion (PIE)",
+      "APLI_LABEL": "Programa de Integracion (PIE)",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "230",
+      "APLI_DESC": "Gestion Documental",
+      "APLI_LABEL": "Gestion Documental",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "41",
+      "APLI_DESC": "Profesor",
+      "APLI_LABEL": "Profesor",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_ICONO": "Documentos.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "43",
+      "APLI_DESC": "Alumnos",
+      "APLI_LABEL": "Alumnos",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_ICONO": "Alumnos.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "61",
+      "APLI_DESC": "Operaciones",
+      "APLI_LABEL": "Operaciones",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_ICONO": "Operaciones.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "75",
+      "APLI_DESC": "Documentos",
+      "APLI_LABEL": "Documentos",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_ICONO": "DocumentosApoyo.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "79",
+      "APLI_DESC": "Mensajes",
+      "APLI_LABEL": "Mensajes",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_ICONO": "Mensajes.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "82",
+      "APLI_DESC": "SAE",
+      "APLI_LABEL": "SAE",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_ICONO": "SAE.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "888",
+      "APLI_DESC": "Inicio",
+      "APLI_LABEL": "Inicio",
+      "APLI_PADRE": "",
+      "APLI_LINK": "aplicaciones_favoritas_full_blank",
+      "APLI_ICONO": "home.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "112",
+      "APLI_DESC": "Aplicaciones Favoritas",
+      "APLI_LABEL": "Aplicaciones Favoritas",
+      "APLI_PADRE": "100",
+      "APLI_LINK": "grid_matenedor_aplicaciones_favoritas",
+      "APLI_ICONO": "AplicaciconesFavoritas.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "113",
+      "APLI_DESC": "Configuracion Cuenta",
+      "APLI_LABEL": "Configuracion Cuenta",
+      "APLI_PADRE": "100",
+      "APLI_LINK": "cambio_contrasena_form",
+      "APLI_ICONO": "ConfiguracionCuenta.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "106",
+      "APLI_DESC": "Ingreso de Caso",
+      "APLI_LABEL": "Ingreso de Caso",
+      "APLI_PADRE": "105",
+      "APLI_LINK": "casos_grid",
+      "APLI_ICONO": "CrearInformePersonalidad_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "110",
+      "APLI_DESC": "Estadisticas de Convivencia",
+      "APLI_LABEL": "Estadisticas de Convivencia",
+      "APLI_PADRE": "105",
+      "APLI_LINK": "graficos_convivencia_blank",
+      "APLI_ICONO": "DispersionCalificaciones_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "114",
+      "APLI_DESC": "Seguimiento de Mis Casos",
+      "APLI_LABEL": "Seguimiento de Mis Casos",
+      "APLI_PADRE": "105",
+      "APLI_LINK": "casos_supervisor_grid",
+      "APLI_ICONO": "ConsultaAnotaciones_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "118",
+      "APLI_DESC": "Carga Archivo SIGE",
+      "APLI_LABEL": "Carga Archivo SIGE",
+      "APLI_PADRE": "117",
+      "APLI_LINK": "carga_alumno_sige_blnk",
+      "APLI_ICONO": "CargaDocumentosUsuario_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "119",
+      "APLI_DESC": "Consulta Carga Archivos",
+      "APLI_LABEL": "Consulta Carga Archivos",
+      "APLI_PADRE": "117",
+      "APLI_LINK": "carga_alumno_sige_grid",
+      "APLI_ICONO": "ConsultaDocumentoUsuario_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "221",
+      "APLI_DESC": "Interoperabilidad SIGE",
+      "APLI_LABEL": "Interoperabilidad SIGE",
+      "APLI_PADRE": "117",
+      "APLI_LINK": "tabs_menu_interoperabilidad",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "33",
+      "APLI_DESC": "Generador Archivos 4 y 5",
+      "APLI_LABEL": "Generador Archivos 4 y 5",
+      "APLI_PADRE": "117",
+      "APLI_LINK": "control_archivo_sige",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "124",
+      "APLI_DESC": "Crear Plan Evaluacion Docente",
+      "APLI_LABEL": "Crear Plan Evaluacion Docente",
+      "APLI_PADRE": "123",
+      "APLI_LINK": "grid_plan_evaluacion_docente",
+      "APLI_ICONO": "IngresoNotas_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "125",
+      "APLI_DESC": "Crear Evaluacion Docente",
+      "APLI_LABEL": "Crear Evaluacion Docente",
+      "APLI_PADRE": "123",
+      "APLI_LINK": "grid_evaluacion_docente",
+      "APLI_ICONO": "CrearInformePersonalidad_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "126",
+      "APLI_DESC": "Asignar Evaluacion Docente",
+      "APLI_LABEL": "Asignar Evaluacion Docente",
+      "APLI_PADRE": "123",
+      "APLI_LINK": "blnk_asignar_evaluacion_docente",
+      "APLI_ICONO": "AsignarInformes_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "127",
+      "APLI_DESC": "Evaluar Docentes",
+      "APLI_LABEL": "Evaluar Docentes",
+      "APLI_PADRE": "123",
+      "APLI_LINK": "blnk_evaluar_docente",
+      "APLI_ICONO": "EvaluarAlumnos_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "128",
+      "APLI_DESC": "Consulta Informes por Docente",
+      "APLI_LABEL": "Consulta Informes por Docente",
+      "APLI_PADRE": "123",
+      "APLI_LINK": "blnk_consulta_informe",
+      "APLI_ICONO": "ConsultaInformesAlumno_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "131",
+      "APLI_DESC": "Impresion Masiva Evaluaciones",
+      "APLI_LABEL": "Impresion Masiva Evaluaciones",
+      "APLI_PADRE": "123",
+      "APLI_LINK": "grid_impresion_masiva_informe",
+      "APLI_ICONO": "ImpresionMasivaInformes_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "108",
+      "APLI_DESC": "Estadistica Classroom",
+      "APLI_LABEL": "Estadistica Classroom",
+      "APLI_PADRE": "129",
+      "APLI_LINK": "graficos_classroom_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "130",
+      "APLI_DESC": "Cursos Classroom",
+      "APLI_LABEL": "Cursos Classroom",
+      "APLI_PADRE": "129",
+      "APLI_LINK": "grid_mantenedor_establecimiento_classroom",
+      "APLI_ICONO": "AplicaciconesFavoritas.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "132",
+      "APLI_DESC": "Sincronizar Cursos Classroom",
+      "APLI_LABEL": "Sincronizar Cursos Classroom",
+      "APLI_PADRE": "129",
+      "APLI_LINK": "grid_GRADOS_CURSOS_classroom",
+      "APLI_ICONO": "AplicaciconesFavoritas.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "133",
+      "APLI_DESC": "Ir a Google Classroom",
+      "APLI_LABEL": "Ir a Google Classroom",
+      "APLI_PADRE": "129",
+      "APLI_LINK": "https://classroom.google.com/h?hl=es",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_blank"
+    },
+    {
+      "APLI_COD": "158",
+      "APLI_DESC": "Actualizar Metricas",
+      "APLI_LABEL": "Actualizar Metricas",
+      "APLI_PADRE": "129",
+      "APLI_LINK": "blank_pantalla_actualizar",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "137",
+      "APLI_DESC": "Carga Documentos de Usuario",
+      "APLI_LABEL": "Carga Documentos de Usuario",
+      "APLI_PADRE": "136",
+      "APLI_LINK": "form_subir_documentos",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "138",
+      "APLI_DESC": "Consulta Documento de Usuario",
+      "APLI_LABEL": "Consulta Documento de Usuario",
+      "APLI_PADRE": "136",
+      "APLI_LINK": "grid_documentos_usuario",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "57",
+      "APLI_DESC": "Dispersion por Periodo",
+      "APLI_LABEL": "Dispersion por Periodo",
+      "APLI_PADRE": "139",
+      "APLI_LINK": "blank_dashboard_informe_dispersion",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "60",
+      "APLI_DESC": "Dispersion anual",
+      "APLI_LABEL": "Dispersion anual",
+      "APLI_PADRE": "139",
+      "APLI_LINK": "blank_dashboard_informe_dispersion_anual",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "141",
+      "APLI_DESC": "PDF",
+      "APLI_LABEL": "PDF",
+      "APLI_PADRE": "140",
+      "APLI_LINK": "pdf_reporte_prof_asig_curso",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "142",
+      "APLI_DESC": "XLSX",
+      "APLI_LABEL": "XLSX",
+      "APLI_PADRE": "140",
+      "APLI_LINK": "xlsx_reporte_prof_asig_curso",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "145",
+      "APLI_DESC": "Cobros",
+      "APLI_LABEL": "Cobros",
+      "APLI_PADRE": "144",
+      "APLI_LINK": "cobros_establecimiento_grid",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "146",
+      "APLI_DESC": "Becas",
+      "APLI_LABEL": "Becas",
+      "APLI_PADRE": "144",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "148",
+      "APLI_DESC": "Grupo Familiar",
+      "APLI_LABEL": "Grupo Familiar",
+      "APLI_PADRE": "144",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "151",
+      "APLI_DESC": "Procesar Pagos",
+      "APLI_LABEL": "Procesar Pagos",
+      "APLI_PADRE": "144",
+      "APLI_LINK": "grid_alumnos_procesar_pago",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "155",
+      "APLI_DESC": "Pagos de Alumnos",
+      "APLI_LABEL": "Pagos de Alumnos",
+      "APLI_PADRE": "144",
+      "APLI_LINK": "grid_conciliacion_pagos",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "156",
+      "APLI_DESC": "Timbrados de Folios",
+      "APLI_LABEL": "Timbrados de Folios",
+      "APLI_PADRE": "144",
+      "APLI_LINK": "grid_resumen_folios",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "157",
+      "APLI_DESC": "Estadisticas Recaudacion",
+      "APLI_LABEL": "Estadisticas Recaudacion",
+      "APLI_PADRE": "144",
+      "APLI_LINK": "blank_dashboard_graf_recaudacion",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "149",
+      "APLI_DESC": "Crear Becas",
+      "APLI_LABEL": "Crear Becas",
+      "APLI_PADRE": "146",
+      "APLI_LINK": "grid_listado_beca_principal",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "150",
+      "APLI_DESC": "Asignar Becas",
+      "APLI_LABEL": "Asignar Becas",
+      "APLI_PADRE": "146",
+      "APLI_LINK": "grid_becas_alumnos_principal",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "152",
+      "APLI_DESC": "Crear Grupo Familia",
+      "APLI_LABEL": "Crear Grupo Familia",
+      "APLI_PADRE": "148",
+      "APLI_LINK": "grid_GRUPO_ALUMNOS",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "153",
+      "APLI_DESC": "Dscto Por Familia",
+      "APLI_LABEL": "Dscto Por Familia",
+      "APLI_PADRE": "148",
+      "APLI_LINK": "grid_descuentos_x_familia",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "160",
+      "APLI_DESC": "Definicion de bloques",
+      "APLI_LABEL": "Definicion de bloques",
+      "APLI_PADRE": "159",
+      "APLI_LINK": "grid_tipos_bloques",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "161",
+      "APLI_DESC": "Plantilla Horario",
+      "APLI_LABEL": "Plantilla Horario",
+      "APLI_PADRE": "159",
+      "APLI_LINK": "grid_cabecero_horario",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "162",
+      "APLI_DESC": "Horario por curso",
+      "APLI_LABEL": "Horario por curso",
+      "APLI_PADRE": "159",
+      "APLI_LINK": "grid_asignar_horario_curso",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "164",
+      "APLI_DESC": "Reporte horas asignaturas por curso",
+      "APLI_LABEL": "Reporte horas asignaturas por curso",
+      "APLI_PADRE": "159",
+      "APLI_LINK": "grid_informe_horas_asig_horario",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "165",
+      "APLI_DESC": "Reporte horario profesor",
+      "APLI_LABEL": "Reporte horario profesor",
+      "APLI_PADRE": "159",
+      "APLI_LINK": "blank_dashboard_reporte_asig_profesor",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "1",
+      "APLI_DESC": "Ingreso de Asistencia por Asignatura",
+      "APLI_LABEL": "Ingreso de Asistencia por Asignatura",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "control_mantenedor_ingreso_asistencia",
+      "APLI_ICONO": "IngresoAsistenciaAsignatura_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "2",
+      "APLI_DESC": "Consulta de Asistencia por Asignatura",
+      "APLI_LABEL": "Consulta de Asistencia por Asignatura",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "control_reporte_asistencia_mensual",
+      "APLI_ICONO": "ConsultaAsistenciaAsignatura_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "22",
+      "APLI_DESC": "Ingreso de Asistencia Diaria",
+      "APLI_LABEL": "Ingreso de Asistencia Diaria",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "control_mantenedor_ingreso_asistencia_diaria_v2",
+      "APLI_ICONO": "IngresoAsistenciaDiaria_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "229",
+      "APLI_DESC": "Registro Asistencia con Ingreso Posterior",
+      "APLI_LABEL": "Registro Asistencia con Ingreso Posterior",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "blank_dashboard_registro_posterior",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "23",
+      "APLI_DESC": "Consulta de Asistencia Diaria/Mensual",
+      "APLI_LABEL": "Consulta de Asistencia Diaria/Mensual",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "control_reporte_asistencia_diaria",
+      "APLI_ICONO": "ConsultaAsistenciaDiariaMensual_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "26",
+      "APLI_DESC": "Ingreso de Porcentaje Asistencia",
+      "APLI_LABEL": "Ingreso de Porcentaje Asistencia",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "blank_dashboard_asistencia_porcentaje",
+      "APLI_ICONO": "IngresoPorcentajeAsistencia_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "62",
+      "APLI_DESC": "Ingreso de Asistencia Mensual",
+      "APLI_LABEL": "Ingreso de Asistencia Mensual",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "control_mantenedor_asistencia_mensual",
+      "APLI_ICONO": "IngresoAsistenciaMensual_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "171",
+      "APLI_DESC": "Registro de Contenido",
+      "APLI_LABEL": "Registro de Contenido",
+      "APLI_PADRE": "170",
+      "APLI_LINK": "dashboard_blank_registro_leccionario",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "172",
+      "APLI_DESC": "Reporte de Registro",
+      "APLI_LABEL": "Reporte de Registro",
+      "APLI_PADRE": "170",
+      "APLI_LINK": "dashboard_reporte_leccionario_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "175",
+      "APLI_DESC": "Centros de Practicas TP",
+      "APLI_LABEL": "Centros de Practicas TP",
+      "APLI_PADRE": "174",
+      "APLI_LINK": "empresa_estab_grid",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "176",
+      "APLI_DESC": "Registro Practica Alumno",
+      "APLI_LABEL": "Registro Practica Alumno",
+      "APLI_PADRE": "174",
+      "APLI_LINK": "practica_grid",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "180",
+      "APLI_DESC": "Reporte de Asistencia",
+      "APLI_LABEL": "Reporte de Asistencia",
+      "APLI_PADRE": "174",
+      "APLI_LINK": "reportes_practica_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "181",
+      "APLI_DESC": "Situacion Final Alumnos",
+      "APLI_LABEL": "Situacion Final Alumnos",
+      "APLI_PADRE": "174",
+      "APLI_LINK": "situacion_final_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "182",
+      "APLI_DESC": "Reporte de Situacion Final por Curso",
+      "APLI_LABEL": "Reporte de Situacion Final por Curso",
+      "APLI_PADRE": "174",
+      "APLI_LINK": "control_filtro_curso",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "178",
+      "APLI_DESC": "Registro de Citacion",
+      "APLI_LABEL": "Registro de Citacion",
+      "APLI_PADRE": "177",
+      "APLI_LINK": "citacion_buscar_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "179",
+      "APLI_DESC": "Reporte de Citacion",
+      "APLI_LABEL": "Reporte de Citacion",
+      "APLI_PADRE": "177",
+      "APLI_LINK": "citacion_buscar_alumno_reporte_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "167",
+      "APLI_DESC": "Definicion de Evaluaciones",
+      "APLI_LABEL": "Definicion de Evaluaciones",
+      "APLI_PADRE": "18",
+      "APLI_LINK": "dashboard_info_notas_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "168",
+      "APLI_DESC": "Ponderacion de Notas",
+      "APLI_LABEL": "Ponderacion de Notas",
+      "APLI_PADRE": "18",
+      "APLI_LINK": "dashboard_blank_ponderacion_notas",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "17",
+      "APLI_DESC": "Ingreso de notas",
+      "APLI_LABEL": "Ingreso de Notas",
+      "APLI_PADRE": "18",
+      "APLI_LINK": "blank_dashboard_ingreso_notas",
+      "APLI_ICONO": "IngresoNotas_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "192",
+      "APLI_DESC": "Solicitud Cambio de Notas",
+      "APLI_LABEL": "Solicitud Cambio de Notas",
+      "APLI_PADRE": "18",
+      "APLI_LINK": "dashboard_ingreso_solicitud_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "193",
+      "APLI_DESC": "Aprobacion Solicitudes Cambio de Notas",
+      "APLI_LABEL": "Aprobacion Solicitudes Cambio de Notas",
+      "APLI_PADRE": "18",
+      "APLI_LINK": "dashboard_validar_solicitud_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "20",
+      "APLI_DESC": "Informe Parcial Notas Por Alumno",
+      "APLI_LABEL": "Informe Parcial Notas Por Alumno",
+      "APLI_PADRE": "18",
+      "APLI_LINK": "control_reporte_concentracion_notas",
+      "APLI_ICONO": "ConsultaNotas_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "21",
+      "APLI_DESC": "Informe Parcial Notas Masivo",
+      "APLI_LABEL": "Informe Parcial Notas Masivo",
+      "APLI_PADRE": "18",
+      "APLI_LINK": "control_reporte_impresion_notas",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "30",
+      "APLI_DESC": "Informe de Notas por Periodo",
+      "APLI_LABEL": "Informe de Notas por Periodo",
+      "APLI_PADRE": "18",
+      "APLI_LINK": "blank_dashboard_informe_notas_semestral",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "99",
+      "APLI_DESC": "Informe de Notas Anual Por Alumno",
+      "APLI_LABEL": "Informe de Notas Anual Por Alumno",
+      "APLI_PADRE": "18",
+      "APLI_LINK": "control_reporte_concentracion_notas_anual",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "101",
+      "APLI_DESC": "Generacion de Archivo MINEDUC",
+      "APLI_LABEL": "Generacion de Archivo MINEDUC",
+      "APLI_PADRE": "186",
+      "APLI_LINK": "iniciar_lb_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "16",
+      "APLI_DESC": "Asistencia",
+      "APLI_LABEL": "Asistencia",
+      "APLI_PADRE": "186",
+      "APLI_LINK": "",
+      "APLI_ICONO": "Asistencia.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "170",
+      "APLI_DESC": "Leccionario Clases",
+      "APLI_LABEL": "Leccionario Clases",
+      "APLI_PADRE": "186",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "177",
+      "APLI_DESC": "Citacion Apoderados",
+      "APLI_LABEL": "Citacion Apoderados",
+      "APLI_PADRE": "186",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "18",
+      "APLI_DESC": "Notas",
+      "APLI_LABEL": "Notas",
+      "APLI_PADRE": "186",
+      "APLI_LINK": "",
+      "APLI_ICONO": "Notas.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "187",
+      "APLI_DESC": "Reporte Libro Digital",
+      "APLI_LABEL": "Reporte Libro Digital",
+      "APLI_PADRE": "186",
+      "APLI_LINK": "menu_libro_digital",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "200",
+      "APLI_DESC": "Revision Firma Digital",
+      "APLI_LABEL": "Revision Firma Digital",
+      "APLI_PADRE": "186",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "201",
+      "APLI_DESC": "Registro Diario Educacion Parvularia",
+      "APLI_LABEL": "Registro Diario Educacion Parvularia",
+      "APLI_PADRE": "186",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "207",
+      "APLI_DESC": "Salida de Alumnos",
+      "APLI_LABEL": "Salida de Alumnos",
+      "APLI_PADRE": "186",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "209",
+      "APLI_DESC": "Salida de Cursos",
+      "APLI_LABEL": "Salida de Cursos",
+      "APLI_PADRE": "186",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "211",
+      "APLI_DESC": "Atrasos por dia",
+      "APLI_LABEL": "Atrasos por dia",
+      "APLI_PADRE": "186",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "224",
+      "APLI_DESC": "Modulo TEL",
+      "APLI_LABEL": "Modulo TEL",
+      "APLI_PADRE": "186",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "227",
+      "APLI_DESC": "Bloqueos",
+      "APLI_LABEL": "Bloqueos",
+      "APLI_PADRE": "186",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "56",
+      "APLI_DESC": "Anotaciones",
+      "APLI_LABEL": "Anotaciones",
+      "APLI_PADRE": "186",
+      "APLI_LINK": "",
+      "APLI_ICONO": "Anotaciones_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "189",
+      "APLI_DESC": "Creacion de Grupos Diferenciales",
+      "APLI_LABEL": "Creacion de Grupos Diferenciales",
+      "APLI_PADRE": "188",
+      "APLI_LINK": "listado_mantenedor_asign_selectiva_grid",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "190",
+      "APLI_DESC": "Ingreso de Notas Diferenciales",
+      "APLI_LABEL": "Ingreso de Notas Diferenciales",
+      "APLI_PADRE": "188",
+      "APLI_LINK": "blank_dashboard_ingreso_notas_diferenciales",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "191",
+      "APLI_DESC": "Ingreso de Asistencia por Bloque ",
+      "APLI_LABEL": "Ingreso de Asistencia por Bloque ",
+      "APLI_PADRE": "188",
+      "APLI_LINK": "filtro_ingreso_asistencia_bloque_diferencial_control",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "10",
+      "APLI_DESC": "Tipos de Ense?anza Establecimiento",
+      "APLI_LABEL": "Tipos de Ense?anza Establecimiento",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "grid_mantenedor_tien_estab",
+      "APLI_ICONO": "TipoEnse_Establecimiento_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "107",
+      "APLI_DESC": "Lugares del Establecimiento",
+      "APLI_LABEL": "Lugares del Establecimiento",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "grid_lugares",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "11",
+      "APLI_DESC": "Cursos Establecimiento",
+      "APLI_LABEL": "Cursos Establecimiento",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "grid_mantenedor_grados_establecimiento",
+      "APLI_ICONO": "CursosEstablecimiento_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "12",
+      "APLI_DESC": "Ficha Establecimiento",
+      "APLI_LABEL": "Ficha Establecimiento",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "grid_mantenedor_establecimiento",
+      "APLI_ICONO": "FichaEstablecimiento_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "129",
+      "APLI_DESC": "Google Classroom",
+      "APLI_LABEL": "Google Classroom",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "15",
+      "APLI_DESC": "Cargos Establecimiento",
+      "APLI_LABEL": "Cargos Establecimiento",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "grid_mantenedor_cargos_establecimiento",
+      "APLI_ICONO": "CargosEstablecimiento_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "159",
+      "APLI_DESC": "Horario",
+      "APLI_LABEL": "Horario",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "166",
+      "APLI_DESC": "Decretos y Planes de Estudios",
+      "APLI_LABEL": "Decretos y Planes de Estudios",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "decretos_ministerio_grid",
+      "APLI_ICONO": "DecretosEstablecimiento_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "169",
+      "APLI_DESC": "Parametrizacion de Promedios",
+      "APLI_LABEL": "Parametrizacion de Promedios",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "blank_parametrizacion",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "194",
+      "APLI_DESC": "Mantenedor de periodos academicos",
+      "APLI_LABEL": "Mantenedor de periodos academicos",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "periodos_academico_grid",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "27",
+      "APLI_DESC": "Decreto de Evaluacion y Promocion",
+      "APLI_LABEL": "Decreto de Evaluacion y Promocion",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "grid_mantenedor_decreto",
+      "APLI_ICONO": "DecretosEstablecimiento_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "28",
+      "APLI_DESC": "Planes de Estudio Establecimiento",
+      "APLI_LABEL": "Planes de Estudio Establecimiento",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "grid_mantenedor_plan_estudios",
+      "APLI_ICONO": "PlanesEstudioEstablecimiento_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "63",
+      "APLI_DESC": "Mantenedor de dias Festivos",
+      "APLI_LABEL": "Mantenedor de dias Festivos",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "",
+      "APLI_ICONO": "MantenedorDiasFestivos_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "67",
+      "APLI_DESC": "Asignaturas Establecimiento",
+      "APLI_LABEL": "Asignaturas Establecimiento",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "",
+      "APLI_ICONO": "AsignaturasEstablecimiento_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "68",
+      "APLI_DESC": "Biblioteca",
+      "APLI_LABEL": "Biblioteca",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "",
+      "APLI_ICONO": "Biblioteca_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "8",
+      "APLI_DESC": "Administracion de Cursos",
+      "APLI_LABEL": "Administracion de Cursos",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "grid_GRADOS_CURSOS",
+      "APLI_ICONO": "AministracionCursos_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "81",
+      "APLI_DESC": "Consulta Capacidad por Curso",
+      "APLI_LABEL": "Consulta Capacidad por Curso",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "grid_consulta_capacidad_cursos",
+      "APLI_ICONO": "ConsultaCapacidadCurso_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "90",
+      "APLI_DESC": "Reserva de recursos",
+      "APLI_LABEL": "Reserva de recursos",
+      "APLI_PADRE": "19",
+      "APLI_LINK": "",
+      "APLI_ICONO": "ReservaRecursos.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "205",
+      "APLI_DESC": "Revision Firma Digital Asistencia",
+      "APLI_LABEL": "Revision Firma Digital Asistencia",
+      "APLI_PADRE": "200",
+      "APLI_LINK": "blank_dashboard_resumen_asis",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "206",
+      "APLI_DESC": "Revision Firma Digital Leccionario",
+      "APLI_LABEL": "Revision Firma Digital Leccionario",
+      "APLI_PADRE": "200",
+      "APLI_LINK": "blank_dashboard_resumen_lecc",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "215",
+      "APLI_DESC": "Revision Firma Digital Atrasos",
+      "APLI_LABEL": "Revision Firma Digital Atrasos",
+      "APLI_PADRE": "200",
+      "APLI_LINK": "blank_dashboard_firma_digital_atrasos",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "203",
+      "APLI_DESC": "Ingreso de Registro Diario",
+      "APLI_LABEL": "Ingreso de Registro Diario",
+      "APLI_PADRE": "201",
+      "APLI_LINK": "dashboard_leccionario_parvulo_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "204",
+      "APLI_DESC": "Reporte de Registro Diario",
+      "APLI_LABEL": "Reporte de Registro Diario",
+      "APLI_PADRE": "201",
+      "APLI_LINK": "dashboard_reporte_lecc_parvulo",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "208",
+      "APLI_DESC": "Reporte de Salida ",
+      "APLI_LABEL": "Reporte de Salida ",
+      "APLI_PADRE": "207",
+      "APLI_LINK": "blank_dashboard_reporte_salida_alumno",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "44",
+      "APLI_DESC": "Registro de Salida",
+      "APLI_LABEL": "Registro de Salida",
+      "APLI_PADRE": "207",
+      "APLI_LINK": "blank_dashboard_modulo_salida",
+      "APLI_ICONO": "RegistroSalidaAlumnos_3.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "183",
+      "APLI_DESC": "Registro de Salida",
+      "APLI_LABEL": "Registro de Salida",
+      "APLI_PADRE": "209",
+      "APLI_LINK": "salidas_curso_grid",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "210",
+      "APLI_DESC": "Reporte de Salida",
+      "APLI_LABEL": "Reporte de Salida",
+      "APLI_PADRE": "209",
+      "APLI_LINK": "dashboard_reporte_curso_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "212",
+      "APLI_DESC": "Registro de Atraso por Alumno",
+      "APLI_LABEL": "Registro de Atraso por Alumno",
+      "APLI_PADRE": "211",
+      "APLI_LINK": "blank_dashboard_registro_atrasos",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "213",
+      "APLI_DESC": "Reporte por Colegio",
+      "APLI_LABEL": "Reporte por Colegio",
+      "APLI_PADRE": "211",
+      "APLI_LINK": "dashboard_reporte_masivo_atrasos",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "214",
+      "APLI_DESC": "Reporte por Alumno",
+      "APLI_LABEL": "Reporte por Alumno",
+      "APLI_PADRE": "211",
+      "APLI_LINK": "dashboard_reporte_individual_atrasos",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "217",
+      "APLI_DESC": "Documento de Planificacion y Evaluacion",
+      "APLI_LABEL": "Documento de Planificacion y Evaluacion",
+      "APLI_PADRE": "216",
+      "APLI_LINK": "blank_integracion_pie",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "237",
+      "APLI_DESC": "Registro de planificacion y evaluacion PIE",
+      "APLI_LABEL": "Registro de planificacion y evaluacion PIE",
+      "APLI_PADRE": "216",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "225",
+      "APLI_DESC": "Registro Fonoaudiologico",
+      "APLI_LABEL": "Registro Fonoaudiologico",
+      "APLI_PADRE": "224",
+      "APLI_LINK": "blank_dashboard_registro_fono",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "226",
+      "APLI_DESC": "Reporte de Registro Fonoaudiologico",
+      "APLI_LABEL": "Reporte de Registro Fonoaudiologico",
+      "APLI_PADRE": "224",
+      "APLI_LINK": "blank_dashboard_reporte_regi_fono",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "228",
+      "APLI_DESC": "Bloqueo de Asistencia",
+      "APLI_LABEL": "Bloqueo de Asistencia",
+      "APLI_PADRE": "227",
+      "APLI_LINK": "blank_bloqueo_asistencia_estab",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "231",
+      "APLI_DESC": "Informacion Personal y Carga de Documentos",
+      "APLI_LABEL": "Informacion Personal y Carga de Documentos",
+      "APLI_PADRE": "230",
+      "APLI_LINK": "blank_adm_ficha_carga_doctos_func",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "236",
+      "APLI_DESC": "Registro por curso",
+      "APLI_LABEL": "Registro por curso",
+      "APLI_PADRE": "237",
+      "APLI_LINK": "app_dashboard_registro_por_curso_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "238",
+      "APLI_DESC": "Administracion PIE Profesionales PIE",
+      "APLI_LABEL": "Administracion PIE Profesionales PIE",
+      "APLI_PADRE": "237",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "232",
+      "APLI_DESC": "Mantenedor NEE",
+      "APLI_LABEL": "Mantenedor NEE",
+      "APLI_PADRE": "238",
+      "APLI_LINK": "app_dashboard_mantenedor_nee_pie_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "233",
+      "APLI_DESC": "Mantenedor de Especialidades PIE",
+      "APLI_LABEL": "Mantenedor de Especialidades PIE",
+      "APLI_PADRE": "238",
+      "APLI_LINK": "app_listado_especialidades_pie_grid",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "234",
+      "APLI_DESC": "Mantenedor de Empresa / Organizacion Social",
+      "APLI_LABEL": "Mantenedor de Empresa / Organizacion Social",
+      "APLI_PADRE": "238",
+      "APLI_LINK": "app_listado_empresa_pie_grid",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "235",
+      "APLI_DESC": "Profesionales PIE",
+      "APLI_LABEL": "Profesionales PIE",
+      "APLI_PADRE": "238",
+      "APLI_LINK": "app_dashboard_profesionales_pie_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "122",
+      "APLI_DESC": "Mantenedor Usuarios Alumnos/Apoderados",
+      "APLI_LABEL": "Mantenedor Usuarios Alumnos/Apoderados",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "grid_mantenedor_usuarios_portal",
+      "APLI_ICONO": "MantenedorUsuarios_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "24",
+      "APLI_DESC": "Mantenedor de Personas",
+      "APLI_LABEL": "Mantenedor de Personas",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "grid_mantenedor_personas",
+      "APLI_ICONO": "MantenedorPersonas_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "4",
+      "APLI_DESC": "Mantenedor de Perfiles",
+      "APLI_LABEL": "Mantenedor de Perfiles",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "grid_mantenedor_perfil",
+      "APLI_ICONO": "MantenedorPerfiles_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "5",
+      "APLI_DESC": "Mantenedor Usuarios",
+      "APLI_LABEL": "Mantenedor Usuarios",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "grid_usuarios_establecimiento",
+      "APLI_ICONO": "MantenedorUsuarios_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "6",
+      "APLI_DESC": "Asignar Perfiles y Aplicaciones",
+      "APLI_LABEL": "Asignar Perfiles y Aplicaciones",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "grid_mantenedor_usuarios",
+      "APLI_ICONO": "AsignarPerfilesAplicaciones_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "123",
+      "APLI_DESC": "Acompa?amiento Docente",
+      "APLI_LABEL": "Acompa?amiento Docente",
+      "APLI_PADRE": "41",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "14",
+      "APLI_DESC": "Fichas de Profesores",
+      "APLI_LABEL": "Fichas de Profesores",
+      "APLI_PADRE": "41",
+      "APLI_LINK": "grid_mantenedor_profesores",
+      "APLI_ICONO": "FichasProfesores_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "88",
+      "APLI_DESC": "Agenda Profesor",
+      "APLI_LABEL": "Agenda Profesor",
+      "APLI_PADRE": "41",
+      "APLI_LINK": "",
+      "APLI_ICONO": "AgendaProfesor_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "105",
+      "APLI_DESC": "Convivencia Escolar",
+      "APLI_LABEL": "Convivencia Escolar",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "",
+      "APLI_ICONO": "Alumnos.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "13",
+      "APLI_DESC": "Fichas de Alumnos",
+      "APLI_LABEL": "Fichas de Alumnos",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "grid_mantenedor_alumno",
+      "APLI_ICONO": "FichaAlumnos_3.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "139",
+      "APLI_DESC": "Dispersion de Calificaciones",
+      "APLI_LABEL": "Dispersion de Calificaciones",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "140",
+      "APLI_DESC": "Reporte de Asignatura por curso",
+      "APLI_LABEL": "Reporte de Asignatura por curso",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "174",
+      "APLI_DESC": "Registro Alumnos en Formacion Dual",
+      "APLI_LABEL": "Registro Alumnos en Formacion Dual",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "188",
+      "APLI_DESC": "Administracion de Asignaturas Electivas",
+      "APLI_LABEL": "Administracion de Asignaturas Electivas",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "31",
+      "APLI_DESC": "Promocion Manual de Alumnos",
+      "APLI_LABEL": "Promocion Manual de Alumnos",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "control_mantenedor_promocion_alumnos",
+      "APLI_ICONO": "PromocionManualAlumnos_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "45",
+      "APLI_DESC": "Proceso de Inscripcion y Matricula",
+      "APLI_LABEL": "Proceso de Inscripcion y Matricula",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "",
+      "APLI_ICONO": "MatricularAlumno_3.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "47",
+      "APLI_DESC": "Informe Personalidad",
+      "APLI_LABEL": "Informe Personalidad",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "",
+      "APLI_ICONO": "InformePErsonalidad.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "48",
+      "APLI_DESC": "Certificados",
+      "APLI_LABEL": "Certificados",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "",
+      "APLI_ICONO": "Certificados_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "50",
+      "APLI_DESC": "Gestion y Estadisticas",
+      "APLI_LABEL": "Gestion y Estadisticas",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "",
+      "APLI_ICONO": "GestionEstadisticas.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "52",
+      "APLI_DESC": "Enfermeria y Control Sano",
+      "APLI_LABEL": "Enfermeria y Control Sano",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "blank_dashboard_modulo_enfermeria",
+      "APLI_ICONO": "EnfermeriaControlSano_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "89",
+      "APLI_DESC": "Agenda Alumnos",
+      "APLI_LABEL": "Agenda Alumnos",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "agenda_alumno",
+      "APLI_ICONO": "AgendaAlumnos_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "98",
+      "APLI_DESC": "Declaracion Accidente Escolar",
+      "APLI_LABEL": "Declaracion Accidente Escolar",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "declaracion_individual",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "195",
+      "APLI_DESC": "Inscripcion de Alumnos",
+      "APLI_LABEL": "Inscripcion de Alumnos",
+      "APLI_PADRE": "45",
+      "APLI_LINK": "form_inscripcion_alumnos",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "197",
+      "APLI_DESC": "Listado de Alumnos Inscritos",
+      "APLI_LABEL": "Listado de Alumnos Inscritos",
+      "APLI_PADRE": "45",
+      "APLI_LINK": "blank_dashboard_inscripcion",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "198",
+      "APLI_DESC": "Matricula de Alumnos",
+      "APLI_LABEL": "Matricula de Alumnos",
+      "APLI_PADRE": "45",
+      "APLI_LINK": "blank_dashboard_matricula",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "199",
+      "APLI_DESC": "Listado de Alumnos Matriculados",
+      "APLI_LABEL": "Listado de Alumnos Matriculados",
+      "APLI_PADRE": "45",
+      "APLI_LINK": "blank_dashboard_lista_matriculados",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "116",
+      "APLI_DESC": "Crear Plan  Evaluacion",
+      "APLI_LABEL": "Crear Plan  Evaluacion",
+      "APLI_PADRE": "47",
+      "APLI_LINK": "plan_evaluacion_grid",
+      "APLI_ICONO": "IngresoNotas_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "40",
+      "APLI_DESC": "Crear informe Personalidad",
+      "APLI_LABEL": "Crear informe Personalidad",
+      "APLI_PADRE": "47",
+      "APLI_LINK": "grid_informes_establecimiento",
+      "APLI_ICONO": "CrearInformePersonalidad_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "42",
+      "APLI_DESC": "Asignar Informes",
+      "APLI_LABEL": "Asignar Informes",
+      "APLI_PADRE": "47",
+      "APLI_LINK": "blank_dashboard_alumnos_evaluacion",
+      "APLI_ICONO": "AsignarInformes_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "46",
+      "APLI_DESC": "Evaluar Alumnos",
+      "APLI_LABEL": "Evaluar Alumnos",
+      "APLI_PADRE": "47",
+      "APLI_LINK": "blank_dashboard_contestar_evaluacion",
+      "APLI_ICONO": "EvaluarAlumnos_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "53",
+      "APLI_DESC": "Consulta Informes por Alumno",
+      "APLI_LABEL": "Consulta informes por alumno",
+      "APLI_PADRE": "47",
+      "APLI_LINK": "blank_dashboard_consultar_evaluacion",
+      "APLI_ICONO": "ConsultaInformesAlumno_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "74",
+      "APLI_DESC": "Impresion Masiva Informes",
+      "APLI_LABEL": "Impresion Masiva Informes",
+      "APLI_PADRE": "47",
+      "APLI_LINK": "grid_impresion_masiva",
+      "APLI_ICONO": "ImpresionMasivaInformes_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "184",
+      "APLI_DESC": "Certificado Retiro de Alumno",
+      "APLI_LABEL": "Certificado Retiro de Alumno",
+      "APLI_PADRE": "48",
+      "APLI_LINK": "filtro_certificado_retiro_alumno_control",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "185",
+      "APLI_DESC": "Certificado Aceptacion de Baja Matricula",
+      "APLI_LABEL": "Certificado Aceptacion de Baja Matricula",
+      "APLI_PADRE": "48",
+      "APLI_LINK": "filtro_certificado_baja_alumno_control",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "218",
+      "APLI_DESC": "Generacion Masiva Promocion A?o Anterior",
+      "APLI_LABEL": "Generacion Masiva Promocion A?o Anterior",
+      "APLI_PADRE": "48",
+      "APLI_LINK": "control_gen_masiva_doc_promocion",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "35",
+      "APLI_DESC": "Certificado de Estudios",
+      "APLI_LABEL": "Certificado de Estudios",
+      "APLI_PADRE": "48",
+      "APLI_LINK": "blank_dashboard_certificado_estudios",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "36",
+      "APLI_DESC": "Certificado de Alumno Regular",
+      "APLI_LABEL": "Certificado de Alumno Regular",
+      "APLI_PADRE": "48",
+      "APLI_LINK": "blank_dashboard_alumno_regular",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "37",
+      "APLI_DESC": "Certificado de Asistencia",
+      "APLI_LABEL": "Certificado de Asistencia",
+      "APLI_PADRE": "48",
+      "APLI_LINK": "blank_dashboard_informe_asistencia",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "38",
+      "APLI_DESC": "Certificado de Matricula",
+      "APLI_LABEL": "Certificado de Matricula",
+      "APLI_PADRE": "48",
+      "APLI_LINK": "blank_dashboard_informe_matricula",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "104",
+      "APLI_DESC": "Nomina Repitentes",
+      "APLI_LABEL": "Nomina Repitentes",
+      "APLI_PADRE": "50",
+      "APLI_LINK": "nomina_repitientes_blnk",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "143",
+      "APLI_DESC": "Libro de Registro",
+      "APLI_LABEL": "Libro de Registro",
+      "APLI_PADRE": "50",
+      "APLI_LINK": "control_libro_registro",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "223",
+      "APLI_DESC": "Estadisticas de Alumnos Matriculados",
+      "APLI_LABEL": "Estadisticas de Alumnos Matriculados",
+      "APLI_PADRE": "50",
+      "APLI_LINK": "blank_dashboard_repo_estadistica",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "32",
+      "APLI_DESC": "Acta de Calificaciones",
+      "APLI_LABEL": "Acta de Calificaciones",
+      "APLI_PADRE": "50",
+      "APLI_LINK": "control_acta_calificaciones",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "34",
+      "APLI_DESC": "Licencias de Educacion",
+      "APLI_LABEL": "Licencias de Educacion",
+      "APLI_PADRE": "50",
+      "APLI_LINK": "blank_dashboard_licencia_basica",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "39",
+      "APLI_DESC": "Lista Curso",
+      "APLI_LABEL": "Lista Curso",
+      "APLI_PADRE": "50",
+      "APLI_LINK": "control_lista_curso",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "49",
+      "APLI_DESC": "Informe Matriculas Establecimiento",
+      "APLI_LABEL": "Informe Matriculas Establecimiento",
+      "APLI_PADRE": "50",
+      "APLI_LINK": "reporte_matricula_establecimiento",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "51",
+      "APLI_DESC": "Consulta Procesos",
+      "APLI_LABEL": "Consulta Procesos",
+      "APLI_PADRE": "50",
+      "APLI_LINK": "grid_procesos_cursos",
+      "APLI_ICONO": "ConsultaProcesos_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "58",
+      "APLI_DESC": "Informe de Situacion Anual",
+      "APLI_LABEL": "Informe de Situacion Anual",
+      "APLI_PADRE": "50",
+      "APLI_LINK": "blank_dashboard_informe_situacion",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "71",
+      "APLI_DESC": "Informe de Situacion por Periodo",
+      "APLI_LABEL": "Informe de Situacion por Periodo",
+      "APLI_PADRE": "50",
+      "APLI_LINK": "blank_dashboard_informe_situacion_periodo",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "83",
+      "APLI_DESC": "Lista Alumnos PIE",
+      "APLI_LABEL": "Lista Alumnos PIE",
+      "APLI_PADRE": "50",
+      "APLI_LINK": "grid_listado_alumnos_pie",
+      "APLI_ICONO": "DocGenerico_1.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "54",
+      "APLI_DESC": "Registro de Anotaciones",
+      "APLI_LABEL": "Registro de Anotaciones",
+      "APLI_PADRE": "56",
+      "APLI_LINK": "blank_dashboard_modulo_anotaciones",
+      "APLI_ICONO": "RegistroAnotaciones_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "55",
+      "APLI_DESC": "Consulta de Anotaciones",
+      "APLI_LABEL": "Consulta de Anotaciones",
+      "APLI_PADRE": "56",
+      "APLI_LINK": "blank_dashboard_consulta_anotaciones",
+      "APLI_ICONO": "ConsultaAnotaciones_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "100",
+      "APLI_DESC": "Configuracion Usuario",
+      "APLI_LABEL": "Configuracion Usuario",
+      "APLI_PADRE": "61",
+      "APLI_LINK": "",
+      "APLI_ICONO": "ConfiguracionUsuario.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "121",
+      "APLI_DESC": "Configuracion de Certificados",
+      "APLI_LABEL": "Configuracion de Certificados",
+      "APLI_PADRE": "61",
+      "APLI_LINK": "grid_configuracion_reportes",
+      "APLI_ICONO": "Certificados_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "3",
+      "APLI_DESC": "Perfilamiento",
+      "APLI_LABEL": "Perfilamiento",
+      "APLI_PADRE": "61",
+      "APLI_LINK": "",
+      "APLI_ICONO": "Perfilamiento_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "65",
+      "APLI_DESC": "Mantenedor de Aplicaciones",
+      "APLI_LABEL": "Mantenedor de Aplicaciones",
+      "APLI_PADRE": "61",
+      "APLI_LINK": "mantenedor_aplicaciones_grid",
+      "APLI_ICONO": "MantenedirAplicaciones_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "96",
+      "APLI_DESC": "Ingreso Festivos",
+      "APLI_LABEL": "Ingreso Festivos",
+      "APLI_PADRE": "63",
+      "APLI_LINK": "form_festivos_estab_old",
+      "APLI_ICONO": "IngresoFestivos_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "97",
+      "APLI_DESC": "Ver Calendario Festivos",
+      "APLI_LABEL": "Ver Calendario Festivos",
+      "APLI_PADRE": "63",
+      "APLI_LINK": "calendario_feriados",
+      "APLI_ICONO": "VerCalendarioFestivos_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "66",
+      "APLI_DESC": "Talleres JEC",
+      "APLI_LABEL": "Talleres JEC",
+      "APLI_PADRE": "67",
+      "APLI_LINK": "grid_ASIGNATURAS",
+      "APLI_ICONO": "TalleresJEC_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "9",
+      "APLI_DESC": "Asignaturas MINEDUC",
+      "APLI_LABEL": "Asignaturas MINEDUC",
+      "APLI_PADRE": "67",
+      "APLI_LINK": "grid_mantenedor_asignatura_establecimiento",
+      "APLI_ICONO": "AsignaturasMINEDUC_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "72",
+      "APLI_DESC": "Libros del Establecimiento",
+      "APLI_LABEL": "Libros del Establecimiento",
+      "APLI_PADRE": "68",
+      "APLI_LINK": "grid_libros_establecimiento",
+      "APLI_ICONO": "LibrosEstablecimiento_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "136",
+      "APLI_DESC": "Documento de Apoyo",
+      "APLI_LABEL": "Documento de Apoyo",
+      "APLI_PADRE": "75",
+      "APLI_LINK": "",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "76",
+      "APLI_DESC": "Carga Documentos de Usuario",
+      "APLI_LABEL": "Carga Documentos de Usuario",
+      "APLI_PADRE": "75",
+      "APLI_LINK": "form_subir_documentos",
+      "APLI_ICONO": "CargaDocumentosUsuario_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "77",
+      "APLI_DESC": "Consulta Documentos de Usuario",
+      "APLI_LABEL": "Consulta Documentos de Usuario",
+      "APLI_PADRE": "75",
+      "APLI_LINK": "grid_documentos_usuario",
+      "APLI_ICONO": "ConsultaDocumentoUsuario_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "120",
+      "APLI_DESC": "Crear Plantilla de Mensajes",
+      "APLI_LABEL": "Crear Plantilla de Mensajes",
+      "APLI_PADRE": "79",
+      "APLI_LINK": "grid_plantilla_mensajes",
+      "APLI_ICONO": "IngresoNotas_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "134",
+      "APLI_DESC": "Configuracion Mensajes Funcionario",
+      "APLI_LABEL": "Configuracion Mensajes Funcionario",
+      "APLI_PADRE": "79",
+      "APLI_LINK": "grid_mensajes_funcionarios",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "135",
+      "APLI_DESC": "Crear Plantilla Funcionario",
+      "APLI_LABEL": "Crear Plantilla Funcionario",
+      "APLI_PADRE": "79",
+      "APLI_LINK": "grid_plantilla_mensajes_funcionario",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "154",
+      "APLI_DESC": "Registros de Bolsas SMS",
+      "APLI_LABEL": "Registros de Bolsas SMS",
+      "APLI_PADRE": "79",
+      "APLI_LINK": "compra_sms_grid",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "173",
+      "APLI_DESC": "Reporte de SMS",
+      "APLI_LABEL": "Reporte de SMS",
+      "APLI_PADRE": "79",
+      "APLI_LINK": "SMS1_blank",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "202",
+      "APLI_DESC": "Directorio Telefonico",
+      "APLI_LABEL": "Directorio Telefonico",
+      "APLI_PADRE": "79",
+      "APLI_LINK": "dashboard_directorio_telefonico",
+      "APLI_ICONO": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "80",
+      "APLI_DESC": "Configuracion Mensajes",
+      "APLI_LABEL": "Configuracion Mensajes",
+      "APLI_PADRE": "79",
+      "APLI_LINK": "grid_mensajes",
+      "APLI_ICONO": "ConfiguracionMensajes_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "115",
+      "APLI_DESC": "Consulta Capacidad por Curso SAE",
+      "APLI_LABEL": "Consulta Capacidad por Curso SAE",
+      "APLI_PADRE": "82",
+      "APLI_LINK": "grid_consulta_capacidad_cursos_SAE",
+      "APLI_ICONO": "PostulacionAlumno_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "86",
+      "APLI_DESC": "Gestion de Postulantes",
+      "APLI_LABEL": "Gestion de Postulantes",
+      "APLI_PADRE": "82",
+      "APLI_LINK": "grid_alumnos_postulantes",
+      "APLI_ICONO": "GestionPostulantes_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "93",
+      "APLI_DESC": "Ingresar evento",
+      "APLI_LABEL": "Ingresar evento",
+      "APLI_PADRE": "88",
+      "APLI_LINK": "grid_eventos_profesor",
+      "APLI_ICONO": "IngresarEvento_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "94",
+      "APLI_DESC": "Ver Calendario",
+      "APLI_LABEL": "Ver Calendario",
+      "APLI_PADRE": "88",
+      "APLI_LINK": "calendario_profesor_ver",
+      "APLI_ICONO": "VerCalendario_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "91",
+      "APLI_DESC": "Agenda de Recursos",
+      "APLI_LABEL": "Agenda de Recursos",
+      "APLI_PADRE": "90",
+      "APLI_LINK": "blank_dashboard_agenda_recursos",
+      "APLI_ICONO": "InventarioRecursos_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "92",
+      "APLI_DESC": "Mantenedor de Recursos",
+      "APLI_LABEL": "Mantenedor de Recursos",
+      "APLI_PADRE": "90",
+      "APLI_LINK": "grid_inventario_recursos",
+      "APLI_ICONO": "MantenedorRecursos_2.png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_COD": "95",
+      "APLI_DESC": "Consulta Calendario Recursos",
+      "APLI_LABEL": "Consulta Calendario Recursos",
+      "APLI_PADRE": "90",
+      "APLI_LINK": "calendario_recursos_ver",
+      "APLI_ICONO": "ConsultaCalendarioRecursos (1).png",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    }
+  ],
+  "educa_tipo_apps": [
+    {
+      "TIAP_COD": "EDUCA",
+      "TIAP_DESC": "Sistema PADEDUCA",
+      "PRFL_COD": "AD_ESTAB",
+      "TIAP_FEC_ING": "20-MAR-23",
+      "TIAP_USER_ING": "99999999"
+    },
+    {
+      "TIAP_COD": "PDIRE",
+      "TIAP_DESC": "Portal Director",
+      "PRFL_COD": "AD_ESTAB",
+      "TIAP_FEC_ING": "24-MAR-23",
+      "TIAP_USER_ING": "99999999"
+    }
+  ],
+  "educa_parametros": [
+    {
+      "PARA_CODIGO": "CONTEX_EDU_LD",
+      "PARA_DESC": "Contexto del Sistema Educa",
+      "PARA_VALOR": "CMDS"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_LEVEL",
+      "PARA_DESC": "Parametro que indica el nivel de Debug a realizar. Ver PKG_DEBUG",
+      "PARA_VALOR": "7"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_MODE",
+      "PARA_DESC": "Indica los usuarios (separados por : antes y despues) que se le debe hacer Debug (FALSE => NO)",
+      "PARA_VALOR": ":ADM_EDUCA:"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_TRACE_LEVEL",
+      "PARA_DESC": "Parametro que indica el nivel de trace a realizar con SET EVENTS=10938 en el package de Debug",
+      "PARA_VALOR": "1"
+    },
+    {
+      "PARA_CODIGO": "ENABLEFILEHANDLER",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "FALSE"
+    },
+    {
+      "PARA_CODIGO": "ENABLEFIREHANDLER",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "FALSE"
+    },
+    {
+      "PARA_CODIGO": "ENABLESTDOUTHANDLER",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "TRUE"
+    },
+    {
+      "PARA_CODIGO": "ENABLEWEBPROCESOR",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "TRUE"
+    },
+    {
+      "PARA_CODIGO": "FEC_NEW_LECC_PARV",
+      "PARA_DESC": "Fecha distincion para leccionarios de parvulo nuevos y antiguos",
+      "PARA_VALOR": "2025-04-01"
+    },
+    {
+      "PARA_CODIGO": "FLAG_SITIO_MANT",
+      "PARA_DESC": "Flag que Indica si el Sitio esta en Mantencion [0 = No Esta], [1 = Si Esta]",
+      "PARA_VALOR": "0"
+    },
+    {
+      "PARA_CODIGO": "FMT_MSG_GEN",
+      "PARA_DESC": "Formato para el nombre del archivo de trace general. % se reemplazara por fecha.",
+      "PARA_VALOR": "msg_EDC_%.log"
+    },
+    {
+      "PARA_CODIGO": "INPUT_LD",
+      "PARA_DESC": "Ruta de lectura de archivos Libro Digital",
+      "PARA_VALOR": "LIBRO_DIGITAL_ARCH/ede/input"
+    },
+    {
+      "PARA_CODIGO": "LEVELFILEHANDLER",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "400"
+    },
+    {
+      "PARA_CODIGO": "LEVELFIREHANDLER",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "400"
+    },
+    {
+      "PARA_CODIGO": "LEVELSTDOUTHANDLER",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "400"
+    },
+    {
+      "PARA_CODIGO": "LOGGERNAME",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "EDUCA"
+    },
+    {
+      "PARA_CODIGO": "MASIV_SIGE",
+      "PARA_DESC": "Habilitacion de opcion envio asistencia masivo SIGE",
+      "PARA_VALOR": "SI"
+    },
+    {
+      "PARA_CODIGO": "OUTPUT_LD",
+      "PARA_DESC": "Ruta de salida de archivos Libro Digital",
+      "PARA_VALOR": "LIBRO_DIGITAL_ARCH/ede/output"
+    },
+    {
+      "PARA_CODIGO": "PATH_CARGA_ARCH_DB",
+      "PARA_DESC": "Path donde reciden los Archivos a Cargar",
+      "PARA_VALOR": "EDC_DIR_CARGA"
+    },
+    {
+      "PARA_CODIGO": "PATH_MSG_GEN",
+      "PARA_DESC": "Path para los archivos de trace general",
+      "PARA_VALOR": "PADTRACE"
+    },
+    {
+      "PARA_CODIGO": "TOKEN_LD",
+      "PARA_DESC": "Token para Libro Digital",
+      "PARA_VALOR": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e"
+    },
+    {
+      "PARA_CODIGO": "TRACE_APLICACION",
+      "PARA_DESC": "Parametro que Indica si se hace Traza sobre las Aplicaciones (valores S o N)",
+      "PARA_VALOR": "S"
+    }
+  ],
+  "educa_param_corp": [
+    {
+      "ESAD_COD": "1",
+      "PCOR_COD": "ENCA_ADMISION_ESC",
+      "PCOR_DESC": "ENCARGADA SISTEMA ADMISION ESCOLAR",
+      "PCOR_VALOR": "MIXCY ALBORNOZ LOPEZ"
+    },
+    {
+      "ESAD_COD": "1",
+      "PCOR_COD": "ENDPOINT_ACCOUNT_EMAIL",
+      "PCOR_DESC": "Config Account Email",
+      "PCOR_VALOR": ""
+    },
+    {
+      "ESAD_COD": "1",
+      "PCOR_COD": "ENDPOINT_ACCOUNT_PUSH",
+      "PCOR_DESC": "Config Account Push",
+      "PCOR_VALOR": ""
+    },
+    {
+      "ESAD_COD": "1",
+      "PCOR_COD": "ENDPOINT_ACCOUNT_SMS",
+      "PCOR_DESC": "Config Account SMS",
+      "PCOR_VALOR": "CMDS"
+    },
+    {
+      "ESAD_COD": "1",
+      "PCOR_COD": "ENDPOINT_API_KEY_EMAIL",
+      "PCOR_DESC": "Config Envio ApiKey Email",
+      "PCOR_VALOR": ""
+    },
+    {
+      "ESAD_COD": "1",
+      "PCOR_COD": "ENDPOINT_API_KEY_PUSH",
+      "PCOR_DESC": "Config Envio ApiKey Push",
+      "PCOR_VALOR": ""
+    },
+    {
+      "ESAD_COD": "1",
+      "PCOR_COD": "ENDPOINT_API_KEY_SMS",
+      "PCOR_DESC": "Config Envio ApiKey SMS",
+      "PCOR_VALOR": "X8t0SFaLa3ycM5Xq6eTQ24qaanM40CLd"
+    },
+    {
+      "ESAD_COD": "1",
+      "PCOR_COD": "ENDPOINT_ENVIO_EMAIL",
+      "PCOR_DESC": "Config Envio Email",
+      "PCOR_VALOR": "http://appl.pad.cl:8380/messaging/sendMessage"
+    },
+    {
+      "ESAD_COD": "1",
+      "PCOR_COD": "ENDPOINT_ENVIO_PUSH",
+      "PCOR_DESC": "Config Envio Push",
+      "PCOR_VALOR": "http://appl.pad.cl:8380/messaging/sendMessage"
+    },
+    {
+      "ESAD_COD": "1",
+      "PCOR_COD": "ENDPOINT_ENVIO_SMS",
+      "PCOR_DESC": "Config Envio SMS",
+      "PCOR_VALOR": "http://appl.pad.cl:8380/messaging/sendMessage"
+    }
+  ],
+  "educa_sige_param": [
+    {
+      "SIPA_CODIGO": "URL_ASISTENCIA",
+      "SIPA_VALOR": "http://w7app.mineduc.cl/WsApiMineduc/services/AsistenciaSigeSoapPort",
+      "SIPA_DESC": "URLServicio Asistencia"
+    },
+    {
+      "SIPA_CODIGO": "URL_REPORTE",
+      "SIPA_VALOR": "http://w7app.mineduc.cl/WsApiMineduc/services/AsistenciaSigeSoapPort",
+      "SIPA_DESC": "URL Servucio Reporte"
+    },
+    {
+      "SIPA_CODIGO": "URL_SEMILLA",
+      "SIPA_VALOR": "http://w7app.mineduc.cl/WsApiAutorizacion/services/SemillaServiciosSoapPort",
+      "SIPA_DESC": "URL Servicio Semilla"
+    },
+    {
+      "SIPA_CODIGO": "XMLNS_ASISTENCIA_DEFAULT",
+      "SIPA_VALOR": "http://dido.mineduc.cl/Archivos/Schemas/",
+      "SIPA_DESC": "Namespace default para asistencia"
+    },
+    {
+      "SIPA_CODIGO": "XMLNS_REPORTE_DEFAULT",
+      "SIPA_VALOR": "http://dido.mineduc.cl/Archivos/Schemas/",
+      "SIPA_DESC": "Namespace default para reporte"
+    },
+    {
+      "SIPA_CODIGO": "XMLNS_SEMILLA_DEFAULT",
+      "SIPA_VALOR": "http://wwwfs.mineduc.cl/Archivos/Schemas/",
+      "SIPA_DESC": "Namespace default para semilla"
+    },
+    {
+      "SIPA_CODIGO": "XMLNS_SOAP",
+      "SIPA_VALOR": "http://schemas.xmlsoap.org/soap/envelope/",
+      "SIPA_DESC": "Namespace SOAP"
+    }
+  ],
+  "educa_top_used_apps": [
+    {
+      "APLI_LINK": "control_mantenedor_ingreso_asistencia",
+      "USOS": "517874"
+    },
+    {
+      "APLI_LINK": "control_form_mantenedor_ingreso_notas",
+      "USOS": "457133"
+    },
+    {
+      "APLI_LINK": "control_registro_leccionario",
+      "USOS": "244020"
+    },
+    {
+      "APLI_LINK": "control_reporte_concentracion_notas_anual",
+      "USOS": "83676"
+    },
+    {
+      "APLI_LINK": "control_reporte_concentracion_notas",
+      "USOS": "68841"
+    },
+    {
+      "APLI_LINK": "control_reporte_asistencia_mensual",
+      "USOS": "59438"
+    },
+    {
+      "APLI_LINK": "control_reporte_asistencia_diaria",
+      "USOS": "55111"
+    },
+    {
+      "APLI_LINK": "buscador_ingreso_solicitud_control",
+      "USOS": "42891"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_ingreso_notas",
+      "USOS": "33575"
+    },
+    {
+      "APLI_LINK": "calendario_profesor_ver_a",
+      "USOS": "28334"
+    },
+    {
+      "APLI_LINK": "control_reporte_leccionario",
+      "USOS": "23622"
+    },
+    {
+      "APLI_LINK": "buscador_validar_solicitud_control",
+      "USOS": "18744"
+    },
+    {
+      "APLI_LINK": "mantenedor_informacion_notas_control",
+      "USOS": "14085"
+    },
+    {
+      "APLI_LINK": "control_mantenedor_asistencia_mensual",
+      "USOS": "13411"
+    },
+    {
+      "APLI_LINK": "control_informe_notas_semestral",
+      "USOS": "10157"
+    },
+    {
+      "APLI_LINK": "control_lista_atrasos",
+      "USOS": "8873"
+    },
+    {
+      "APLI_LINK": "control_acta_calificaciones",
+      "USOS": "6347"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_modulo_anotaciones",
+      "USOS": "5847"
+    },
+    {
+      "APLI_LINK": "control_informe_situacion",
+      "USOS": "5596"
+    },
+    {
+      "APLI_LINK": "grid_CURSO_ASIGNATURA",
+      "USOS": "4602"
+    },
+    {
+      "APLI_LINK": "grid_listado_alumnos_curso",
+      "USOS": "4377"
+    },
+    {
+      "APLI_LINK": "buscador_validar_solicitud_control_v2",
+      "USOS": "3429"
+    },
+    {
+      "APLI_LINK": "grid_GRADOS_CURSOS",
+      "USOS": "3342"
+    },
+    {
+      "APLI_LINK": "control_lista_curso",
+      "USOS": "2631"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_consulta_anotaciones",
+      "USOS": "2608"
+    },
+    {
+      "APLI_LINK": "form_mantenedor_alumnos_edit",
+      "USOS": "2144"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_informe_notas_semestral",
+      "USOS": "1904"
+    },
+    {
+      "APLI_LINK": "form_inscripcion_alumnos",
+      "USOS": "1548"
+    },
+    {
+      "APLI_LINK": "control_mantenedor_promocion_alumnos",
+      "USOS": "1496"
+    },
+    {
+      "APLI_LINK": "control_informe_situacion_periodo",
+      "USOS": "1345"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_modulo_back_salida",
+      "USOS": "1339"
+    },
+    {
+      "APLI_LINK": "grid_mantenedor_contacto_establecimiento",
+      "USOS": "1234"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_contestar_evaluacion",
+      "USOS": "1195"
+    },
+    {
+      "APLI_LINK": "grid_mantenedor_profesores",
+      "USOS": "1179"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_alumno_regular",
+      "USOS": "1049"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_informe_situacion",
+      "USOS": "948"
+    },
+    {
+      "APLI_LINK": "grid_mantenedor_usuarios_portal",
+      "USOS": "869"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_asistencia_porcentaje",
+      "USOS": "761"
+    },
+    {
+      "APLI_LINK": "control_archivo_sige",
+      "USOS": "670"
+    },
+    {
+      "APLI_LINK": "control_informe_dispersion_anual",
+      "USOS": "605"
+    },
+    {
+      "APLI_LINK": "grid_mantenedor_grados_establecimiento",
+      "USOS": "545"
+    },
+    {
+      "APLI_LINK": "grid_mantenedor_usuarios",
+      "USOS": "538"
+    },
+    {
+      "APLI_LINK": "grid_usuarios_establecimiento",
+      "USOS": "503"
+    },
+    {
+      "APLI_LINK": "grid_informes_establecimiento",
+      "USOS": "430"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_modulo_salida",
+      "USOS": "353"
+    },
+    {
+      "APLI_LINK": "control_informe_dispersion",
+      "USOS": "339"
+    },
+    {
+      "APLI_LINK": "blank_2",
+      "USOS": "263"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_informe_situacion_periodo",
+      "USOS": "259"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_consultar_evaluacion",
+      "USOS": "254"
+    },
+    {
+      "APLI_LINK": "citacion_buscar_blank",
+      "USOS": "246"
+    },
+    {
+      "APLI_LINK": "grid_listado_informes_consultar",
+      "USOS": "212"
+    },
+    {
+      "APLI_LINK": "grid_mantenedor_establecimiento",
+      "USOS": "207"
+    },
+    {
+      "APLI_LINK": "grid_impresion_masiva",
+      "USOS": "171"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_alumnos_evaluacion",
+      "USOS": "169"
+    },
+    {
+      "APLI_LINK": "grid_mantenedor_perfil",
+      "USOS": "149"
+    },
+    {
+      "APLI_LINK": "grid_mantenedor_personas",
+      "USOS": "139"
+    },
+    {
+      "APLI_LINK": "grid_mensajes",
+      "USOS": "135"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_informe_dispersion_anual",
+      "USOS": "108"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_certificado_estudios",
+      "USOS": "107"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_agenda_recursos",
+      "USOS": "102"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_informe_asistencia",
+      "USOS": "78"
+    },
+    {
+      "APLI_LINK": "grid_listado_alumnos_pie",
+      "USOS": "75"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_informe_dispersion",
+      "USOS": "60"
+    },
+    {
+      "APLI_LINK": "grid_eventos_profesor",
+      "USOS": "55"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_licencia_basica",
+      "USOS": "45"
+    },
+    {
+      "APLI_LINK": "citacion_buscar_alumno_reporte_blank",
+      "USOS": "44"
+    },
+    {
+      "APLI_LINK": "grid_mantenedor_asignatura_establecimiento",
+      "USOS": "43"
+    },
+    {
+      "APLI_LINK": "control_libro_registro",
+      "USOS": "43"
+    },
+    {
+      "APLI_LINK": "form_subir_documentos",
+      "USOS": "41"
+    },
+    {
+      "APLI_LINK": "control_gen_masiva_doc_promocion",
+      "USOS": "37"
+    },
+    {
+      "APLI_LINK": "grid_mantenedor_tien_estab",
+      "USOS": "35"
+    },
+    {
+      "APLI_LINK": "grid_mantenedor_cargos_establecimiento",
+      "USOS": "33"
+    },
+    {
+      "APLI_LINK": "grid_documentos_usuario",
+      "USOS": "29"
+    },
+    {
+      "APLI_LINK": "agenda_alumno",
+      "USOS": "29"
+    },
+    {
+      "APLI_LINK": "blnk_asociar_mensaje",
+      "USOS": "27"
+    },
+    {
+      "APLI_LINK": "grid_plantilla_mensajes",
+      "USOS": "27"
+    },
+    {
+      "APLI_LINK": "control_esta_matriculados",
+      "USOS": "22"
+    },
+    {
+      "APLI_LINK": "grid_mantenedor_decreto",
+      "USOS": "22"
+    },
+    {
+      "APLI_LINK": "calendario_profesor_ver",
+      "USOS": "18"
+    },
+    {
+      "APLI_LINK": "grid_mensajes_funcionarios",
+      "USOS": "16"
+    },
+    {
+      "APLI_LINK": "grid_cabecero_horario",
+      "USOS": "16"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_informe_matricula",
+      "USOS": "16"
+    },
+    {
+      "APLI_LINK": "calendario_feriados",
+      "USOS": "13"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_repo_estadistica",
+      "USOS": "13"
+    },
+    {
+      "APLI_LINK": "grid_mantenedor_plan_estudios",
+      "USOS": "8"
+    },
+    {
+      "APLI_LINK": "form_mantenedor_decretos",
+      "USOS": "7"
+    },
+    {
+      "APLI_LINK": "dashboard_directorio_telefonico",
+      "USOS": "6"
+    },
+    {
+      "APLI_LINK": "grid_tipos_bloques",
+      "USOS": "6"
+    },
+    {
+      "APLI_LINK": "calendario_recursos_ver",
+      "USOS": "6"
+    },
+    {
+      "APLI_LINK": "grid_plantilla_mensajes_funcionario",
+      "USOS": "4"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_modulo_enfermeria",
+      "USOS": "3"
+    },
+    {
+      "APLI_LINK": "reporte_matricula_establecimiento",
+      "USOS": "3"
+    },
+    {
+      "APLI_LINK": "form_mantenedor_plan_estudios",
+      "USOS": "3"
+    },
+    {
+      "APLI_LINK": "grid_alumnos_postulantes",
+      "USOS": "2"
+    },
+    {
+      "APLI_LINK": "grid_consulta_capacidad_cursos_SAE",
+      "USOS": "2"
+    },
+    {
+      "APLI_LINK": "form_mantenedor_alumnos_edit_SIGE",
+      "USOS": "2"
+    },
+    {
+      "APLI_LINK": "grid_mantenedor_establecimiento_classroom",
+      "USOS": "1"
+    },
+    {
+      "APLI_LINK": "grid_inventario_recursos",
+      "USOS": "1"
+    },
+    {
+      "APLI_LINK": "grid_procesos_cursos",
+      "USOS": "1"
+    },
+    {
+      "APLI_LINK": "blnk_asignar_evaluacion_docente",
+      "USOS": "1"
+    },
+    {
+      "APLI_LINK": "blnk_evaluar_docente",
+      "USOS": "1"
+    },
+    {
+      "APLI_LINK": "grid_libros_establecimiento",
+      "USOS": "1"
+    },
+    {
+      "APLI_LINK": "grid_evaluacion_docente",
+      "USOS": "1"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_reporte_salida_alumno",
+      "USOS": "1"
+    },
+    {
+      "APLI_LINK": "grid_consulta_capacidad_cursos",
+      "USOS": "1"
+    },
+    {
+      "APLI_LINK": "blank_dashboard_usua_apo",
+      "USOS": "1"
+    }
+  ],
+  "rhu_menu_apps": [
+    {
+      "APLI_ID": "1",
+      "APLI_DESC": "Inicio",
+      "APLI_LABEL": "Inicio",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "2",
+      "APLI_DESC": "Personal",
+      "APLI_LABEL": "Personal",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "3",
+      "APLI_DESC": "Remuneraciones",
+      "APLI_LABEL": "Remuneraciones",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "4",
+      "APLI_DESC": "Reportes",
+      "APLI_LABEL": "Reportes",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "5",
+      "APLI_DESC": "Mantenedores",
+      "APLI_LABEL": "Mantenedores",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "6",
+      "APLI_DESC": "Evaluacion Desempe?o",
+      "APLI_LABEL": "Evaluacion Desempe?o",
+      "APLI_PADRE": "",
+      "APLI_LINK": "grid_RHU_EVALUACION",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "7",
+      "APLI_DESC": "Sistema",
+      "APLI_LABEL": "Sistema",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "8",
+      "APLI_DESC": "Salir",
+      "APLI_LABEL": "Salir",
+      "APLI_PADRE": "",
+      "APLI_LINK": "login",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_parent"
+    },
+    {
+      "APLI_ID": "144",
+      "APLI_DESC": "Carta Termino",
+      "APLI_LABEL": "Carta Termino",
+      "APLI_PADRE": "10",
+      "APLI_LINK": "dashboard_carta_termino_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "58",
+      "APLI_DESC": "Ficha Personal",
+      "APLI_LABEL": "Ficha Personal",
+      "APLI_PADRE": "10",
+      "APLI_LINK": "ficha_personal_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "60",
+      "APLI_DESC": "Contratos Pendientes",
+      "APLI_LABEL": "Contratos Pendientes",
+      "APLI_PADRE": "10",
+      "APLI_LINK": "contratos_pendientes_dashboard_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "61",
+      "APLI_DESC": "Notificacion Contrato",
+      "APLI_LABEL": "Notificacion Contrato",
+      "APLI_PADRE": "10",
+      "APLI_LINK": "contrato_notificaciones_dashboard_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "166",
+      "APLI_DESC": "Carga Estado Licencias",
+      "APLI_LABEL": "Carga Estado Licencias",
+      "APLI_PADRE": "12",
+      "APLI_LINK": "principal_carga_masiva_lice_estado_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "167",
+      "APLI_DESC": "Procesado Estado Licencias",
+      "APLI_LABEL": "Procesado Estado Licencias",
+      "APLI_PADRE": "12",
+      "APLI_LINK": "principal_archivos_cargados_lice_estado_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "62",
+      "APLI_DESC": "Registrar Licencias",
+      "APLI_LABEL": "Registrar Licencias",
+      "APLI_PADRE": "12",
+      "APLI_LINK": "dashboard_licencias_principal",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "63",
+      "APLI_DESC": "Licencias para Descuento",
+      "APLI_LABEL": "Licencias para Descuento",
+      "APLI_PADRE": "12",
+      "APLI_LINK": "dashboard_busqueda_lice_paradesc_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "64",
+      "APLI_DESC": "Informe Licencias Diarias",
+      "APLI_LABEL": "Informe Licencias Diarias",
+      "APLI_PADRE": "12",
+      "APLI_LINK": "dashboard_informe_licencias_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "65",
+      "APLI_DESC": "Notificaciones Descuento",
+      "APLI_LABEL": "Notificaciones Descuento",
+      "APLI_PADRE": "12",
+      "APLI_LINK": "form_RHU_LICE_MEDICA_6Mf_iltro_restore",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "66",
+      "APLI_DESC": "Pagos de licencia(s)",
+      "APLI_LABEL": "Pagos de licencia(s)",
+      "APLI_PADRE": "12",
+      "APLI_LINK": "abrir_carga_licencia",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "67",
+      "APLI_DESC": "Detalle de Carga",
+      "APLI_LABEL": "Detalle de Carga",
+      "APLI_PADRE": "12",
+      "APLI_LINK": "archivos_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "68",
+      "APLI_DESC": "Licencias Pagadas",
+      "APLI_LABEL": "Licencias Pagadas",
+      "APLI_PADRE": "12",
+      "APLI_LINK": "dashboard_busqueda_lice_pagas_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "69",
+      "APLI_DESC": "Estadisticas de Licencia",
+      "APLI_LABEL": "Estadisticas de Licencia",
+      "APLI_PADRE": "12",
+      "APLI_LINK": "dashboard_informe_estadisticas_licencias_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "115",
+      "APLI_DESC": "Permiso",
+      "APLI_LABEL": "Permiso",
+      "APLI_PADRE": "122",
+      "APLI_LINK": "permiso_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "116",
+      "APLI_DESC": "Firmas",
+      "APLI_LABEL": "Firmas",
+      "APLI_PADRE": "122",
+      "APLI_LINK": "personas_firmas",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "150",
+      "APLI_DESC": "Contratos por ley",
+      "APLI_LABEL": "Contratos por ley",
+      "APLI_PADRE": "122",
+      "APLI_LINK": "mantenedor_contratos_ley_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "164",
+      "APLI_DESC": "ODI por cargo",
+      "APLI_LABEL": "ODI por cargo",
+      "APLI_PADRE": "122",
+      "APLI_LINK": "mantenedor_odi_por_cargo_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "37",
+      "APLI_DESC": "Contractual",
+      "APLI_LABEL": "Contractual",
+      "APLI_PADRE": "122",
+      "APLI_LINK": "contractual_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "38",
+      "APLI_DESC": "Dominio",
+      "APLI_LABEL": "Dominio",
+      "APLI_PADRE": "122",
+      "APLI_LINK": "dominio_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "39",
+      "APLI_DESC": "Empresa",
+      "APLI_LABEL": "Empresa",
+      "APLI_PADRE": "122",
+      "APLI_LINK": "empresa_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "40",
+      "APLI_DESC": "EPP",
+      "APLI_LABEL": "EPP",
+      "APLI_PADRE": "122",
+      "APLI_LINK": "epp_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "42",
+      "APLI_DESC": "Representante Legal",
+      "APLI_LABEL": "Representante Legal",
+      "APLI_PADRE": "122",
+      "APLI_LINK": "representante_legal_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "45",
+      "APLI_DESC": "Establecimiento",
+      "APLI_LABEL": "Establecimiento",
+      "APLI_PADRE": "122",
+      "APLI_LINK": "establecimiento_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "49",
+      "APLI_DESC": "Establecimiento-Centro Costo",
+      "APLI_LABEL": "Establecimiento-Centro Costo",
+      "APLI_PADRE": "122",
+      "APLI_LINK": "mantenedor_relacion_establecimiento_centro_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "50",
+      "APLI_DESC": "Comite Paritario",
+      "APLI_LABEL": "Comite Paritario",
+      "APLI_PADRE": "122",
+      "APLI_LINK": "grid_RHU_COMITE_PARITARIO",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "51",
+      "APLI_DESC": "Autorizar Excepciones",
+      "APLI_LABEL": "Autorizar Excepciones",
+      "APLI_PADRE": "122",
+      "APLI_LINK": "autorizar_excepcion_mantenedor_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "117",
+      "APLI_DESC": "Bienios",
+      "APLI_LABEL": "Bienios",
+      "APLI_PADRE": "125",
+      "APLI_LINK": "bienios_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "118",
+      "APLI_DESC": "Bonos de Responsabilidad",
+      "APLI_LABEL": "Bonos de Responsabilidad",
+      "APLI_PADRE": "125",
+      "APLI_LINK": "bono_responsabilidad_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "119",
+      "APLI_DESC": "Escala de sueldos",
+      "APLI_LABEL": "Escala de sueldos",
+      "APLI_PADRE": "125",
+      "APLI_LINK": "escala_sueldo_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "120",
+      "APLI_DESC": "Fondo de Retiro",
+      "APLI_LABEL": "Fondo de Retiro",
+      "APLI_PADRE": "125",
+      "APLI_LINK": "fondo_retiro_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "121",
+      "APLI_DESC": "Valor Hora Docente",
+      "APLI_LABEL": "Valor Hora Docente",
+      "APLI_PADRE": "125",
+      "APLI_LINK": "valor_hora_docente_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "126",
+      "APLI_DESC": "Centro de costo",
+      "APLI_LABEL": "Centro de costo",
+      "APLI_PADRE": "125",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "136",
+      "APLI_DESC": "Jornada Semanal",
+      "APLI_LABEL": "Jornada Semanal",
+      "APLI_PADRE": "125",
+      "APLI_LINK": "JORN_SEMANAL_FORM",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "46",
+      "APLI_DESC": "Dias Feriados",
+      "APLI_LABEL": "Dias Feriados",
+      "APLI_PADRE": "125",
+      "APLI_LINK": "dias_feriados_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "47",
+      "APLI_DESC": "Factores Periodo",
+      "APLI_LABEL": "Factores Periodo",
+      "APLI_PADRE": "125",
+      "APLI_LINK": "factores_pedido_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "123",
+      "APLI_DESC": "Grupo",
+      "APLI_LABEL": "Grupo",
+      "APLI_PADRE": "126",
+      "APLI_LINK": "grupo_centro_costo_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "124",
+      "APLI_DESC": "Plan de Cuentas SuperEduc",
+      "APLI_LABEL": "Plan de Cuentas SuperEduc",
+      "APLI_PADRE": "126",
+      "APLI_LINK": "cuenta_super_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "44",
+      "APLI_DESC": "Centro Costos",
+      "APLI_LABEL": "Centro Costos",
+      "APLI_PADRE": "126",
+      "APLI_LINK": "centro_costo_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "70",
+      "APLI_DESC": "Solicitudes Permiso",
+      "APLI_LABEL": "Solicitudes Permiso",
+      "APLI_PADRE": "13",
+      "APLI_LINK": "grid_permiso_principal",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "71",
+      "APLI_DESC": "Validacion Permiso",
+      "APLI_LABEL": "Validacion Permiso",
+      "APLI_PADRE": "13",
+      "APLI_LINK": "permiso_principal_jefedirecto_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "72",
+      "APLI_DESC": "Segunda Validacion",
+      "APLI_LABEL": "Segunda Validacion",
+      "APLI_PADRE": "13",
+      "APLI_LINK": "permiso_principal_sge_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "132",
+      "APLI_DESC": "Carga Masiva",
+      "APLI_LABEL": "Carga Masiva",
+      "APLI_PADRE": "130",
+      "APLI_LINK": "cargar_asig_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "133",
+      "APLI_DESC": "Detalle de Aprobacion",
+      "APLI_LABEL": "Detalle de Aprobacion",
+      "APLI_PADRE": "130",
+      "APLI_LINK": "archivo_af_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "145",
+      "APLI_DESC": "Resumen",
+      "APLI_LABEL": "Resumen",
+      "APLI_PADRE": "134",
+      "APLI_LINK": "base_personal_control",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "146",
+      "APLI_DESC": "Extendido",
+      "APLI_LABEL": "Extendido",
+      "APLI_PADRE": "134",
+      "APLI_LINK": "base_personal_ext_control",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "73",
+      "APLI_DESC": "Solicitudes Vacaciones",
+      "APLI_LABEL": "Solicitudes Vacaciones",
+      "APLI_PADRE": "14",
+      "APLI_LINK": "vacaciones_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "74",
+      "APLI_DESC": "Validacion Vacaciones",
+      "APLI_LABEL": "Validacion Vacaciones",
+      "APLI_PADRE": "14",
+      "APLI_LINK": "vacaciones_jefedirecto_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "75",
+      "APLI_DESC": "Segunda Aprobacion Vacaciones",
+      "APLI_LABEL": "Segunda Aprobacion Vacaciones",
+      "APLI_PADRE": "14",
+      "APLI_LINK": "vacaciones_sge_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "142",
+      "APLI_DESC": "Historial capacitacion",
+      "APLI_LABEL": "Historial capacitacion",
+      "APLI_PADRE": "15",
+      "APLI_LINK": "grid_HISTORIAL_CURSO",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "76",
+      "APLI_DESC": "Iniciacion Curso",
+      "APLI_LABEL": "Iniciacion Curso",
+      "APLI_PADRE": "15",
+      "APLI_LINK": "iniciacion_capacitacion_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "77",
+      "APLI_DESC": "Asignacion de Informacion",
+      "APLI_LABEL": "Asignacion de Informacion",
+      "APLI_PADRE": "15",
+      "APLI_LINK": "grid_CAPACITACION_CREAR_CURSO",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "78",
+      "APLI_DESC": "Asignar Participantes",
+      "APLI_LABEL": "Asignar Participantes",
+      "APLI_PADRE": "15",
+      "APLI_LINK": "grid_CAPACITACION_ASIGNAR_PARTICIPANTES",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "79",
+      "APLI_DESC": "Seguimientos de Cursos",
+      "APLI_LABEL": "Seguimientos de Cursos",
+      "APLI_PADRE": "15",
+      "APLI_LINK": "grid_CAPACITACION_SEGUIMIENTO_CURSO",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "80",
+      "APLI_DESC": "Crear Curso",
+      "APLI_LABEL": "Crear Curso",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "grid_PREVENCION_CREAR_CURSO",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "81",
+      "APLI_DESC": "Asignar Participantes",
+      "APLI_LABEL": "Asignar Participantes",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "grid_PREVENCION_ASIGNAR_PARTICIPANTES",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "82",
+      "APLI_DESC": "Seguimientos de Cursos",
+      "APLI_LABEL": "Seguimientos de Cursos",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "grid_PREVENCION_SEGUIMIENTO_CURSO",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "83",
+      "APLI_DESC": "Entrega de EPP",
+      "APLI_LABEL": "Entrega de EPP",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "entrega_epp_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "84",
+      "APLI_DESC": "Reunion Comite",
+      "APLI_LABEL": "Reunion Comite",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "reunion_comite_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "85",
+      "APLI_DESC": "Registro de Accidentes",
+      "APLI_LABEL": "Registro de Accidentes",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "grid_PREVENCION_REGISTRO_ACCIDENTE",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "86",
+      "APLI_DESC": "Seleccion Documento",
+      "APLI_LABEL": "Seleccion Documento",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "Seleccion_documento_control",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "147",
+      "APLI_DESC": "Termino Sala Cuna",
+      "APLI_LABEL": "Termino Sala Cuna",
+      "APLI_PADRE": "17",
+      "APLI_LINK": "sala_cuna_termino_dashboard_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "148",
+      "APLI_DESC": "Ofrecimiento Sala Cuna",
+      "APLI_LABEL": "Ofrecimiento Sala Cuna",
+      "APLI_PADRE": "17",
+      "APLI_LINK": "ofrecimiento_sala_cuna_dashboard_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "168",
+      "APLI_DESC": "Beneficio Cuota Mortuoria",
+      "APLI_LABEL": "Beneficio Cuota Mortuoria",
+      "APLI_PADRE": "17",
+      "APLI_LINK": "dashboard_cuota_mortuoria",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "169",
+      "APLI_DESC": "Beneficio Medico",
+      "APLI_LABEL": "Beneficio Medico",
+      "APLI_PADRE": "17",
+      "APLI_LINK": "dashboard_beneficio_medico",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "171",
+      "APLI_DESC": "Reportes Sala Cuna",
+      "APLI_LABEL": "Reportes Sala Cuna",
+      "APLI_PADRE": "17",
+      "APLI_LINK": "generar_nomina_salacu_control",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "89",
+      "APLI_DESC": "Sala Cuna",
+      "APLI_LABEL": "Sala Cuna",
+      "APLI_PADRE": "17",
+      "APLI_LINK": "sala_cuna_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "90",
+      "APLI_DESC": "Asignar Sala Cuna",
+      "APLI_LABEL": "Asignar Sala Cuna",
+      "APLI_PADRE": "17",
+      "APLI_LINK": "dashboard_busqueda_sala_cuna_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "176",
+      "APLI_DESC": "Publicar Ofertas APS",
+      "APLI_LABEL": "Publicar Ofertas APS",
+      "APLI_PADRE": "175",
+      "APLI_LINK": "blank_dashboard_publicar_aps",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "177",
+      "APLI_DESC": "Ofertas APS publicadas",
+      "APLI_LABEL": "Ofertas APS publicadas",
+      "APLI_PADRE": "175",
+      "APLI_LINK": "blank_dashboard_ofertas_aps_publicadas",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "178",
+      "APLI_DESC": "Informar litigios CMDS",
+      "APLI_LABEL": "Informar litigios CMDS",
+      "APLI_PADRE": "175",
+      "APLI_LINK": "grid_litigios_cmds",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "10",
+      "APLI_DESC": "Contratacion",
+      "APLI_LABEL": "Contratacion",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "11",
+      "APLI_DESC": "Finiquito",
+      "APLI_LABEL": "Finiquito",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "Finiquito_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "12",
+      "APLI_DESC": "Licencias - Orden Reposo",
+      "APLI_LABEL": "Licencias - Orden Reposo",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "13",
+      "APLI_DESC": "Permisos",
+      "APLI_LABEL": "Permisos",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "14",
+      "APLI_DESC": "Vacaciones",
+      "APLI_LABEL": "Vacaciones",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "15",
+      "APLI_DESC": "Capacitacion",
+      "APLI_LABEL": "Capacitacion",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "16",
+      "APLI_DESC": "Prevencion",
+      "APLI_LABEL": "Prevencion",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "17",
+      "APLI_DESC": "Beneficio",
+      "APLI_LABEL": "Beneficio",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "18",
+      "APLI_DESC": "Bienestar",
+      "APLI_LABEL": "Bienestar",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "bienestar_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "19",
+      "APLI_DESC": "ODI",
+      "APLI_LABEL": "ODI",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "ODI_GRID",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "20",
+      "APLI_DESC": "Denuncia - Demanda",
+      "APLI_LABEL": "Denuncia - Demanda",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "denuncia_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "21",
+      "APLI_DESC": "Carrera Funcionaria",
+      "APLI_LABEL": "Carrera Funcionaria",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "9",
+      "APLI_DESC": "Reclutamiento y Seleccion",
+      "APLI_LABEL": "Reclutamiento y Seleccion",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "91",
+      "APLI_DESC": "Capacitacion Individual",
+      "APLI_LABEL": "Capacitacion Individual",
+      "APLI_PADRE": "21",
+      "APLI_LINK": "capacitacion_individual_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "92",
+      "APLI_DESC": "Historial Carrera Funcionaria",
+      "APLI_LABEL": "Historial Carrera Funcionaria",
+      "APLI_PADRE": "21",
+      "APLI_LINK": "carrera_funcionaria_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "93",
+      "APLI_DESC": "Solicitudes Anticipo",
+      "APLI_LABEL": "Solicitudes Anticipo",
+      "APLI_PADRE": "22",
+      "APLI_LINK": "anticipo_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "94",
+      "APLI_DESC": "Validacion Anticipo",
+      "APLI_LABEL": "Validacion Anticipo",
+      "APLI_PADRE": "22",
+      "APLI_LINK": "anticipo_jefedirecto_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "95",
+      "APLI_DESC": "Segunda Validacion Anticipo",
+      "APLI_LABEL": "Segunda Validacion Anticipo",
+      "APLI_PADRE": "22",
+      "APLI_LINK": "anticipo_sge_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "100",
+      "APLI_DESC": "Formulas",
+      "APLI_LABEL": "Formulas",
+      "APLI_PADRE": "26",
+      "APLI_LINK": "formulas_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "96",
+      "APLI_DESC": "Modalidad de Calculo - Periodo",
+      "APLI_LABEL": "Modalidad de Calculo - Periodo",
+      "APLI_PADRE": "26",
+      "APLI_LINK": "modalidad_calculo_periodo_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "97",
+      "APLI_DESC": "Modalidad de Calculo - Grupos de Variables",
+      "APLI_LABEL": "Modalidad de Calculo - Grupos de Variables",
+      "APLI_PADRE": "26",
+      "APLI_LINK": "modalidad_calculo_grupos_variables_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "98",
+      "APLI_DESC": "Modalidad de Calculo - Agrupar Variables",
+      "APLI_LABEL": "Modalidad de Calculo - Agrupar Variables",
+      "APLI_PADRE": "26",
+      "APLI_LINK": "modalidad_calculo_agrupar_variables_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "99",
+      "APLI_DESC": "Administrar Variables",
+      "APLI_LABEL": "Administrar Variables",
+      "APLI_PADRE": "26",
+      "APLI_LINK": "administrar_variables_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "101",
+      "APLI_DESC": "Administrar",
+      "APLI_LABEL": "Administrar",
+      "APLI_PADRE": "29",
+      "APLI_LINK": "cargar_habydesc_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "102",
+      "APLI_DESC": "Proceso Carga Archivos",
+      "APLI_LABEL": "Proceso Carga Archivos",
+      "APLI_PADRE": "29",
+      "APLI_LINK": "archivo_hd_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "130",
+      "APLI_DESC": "Asignacion Familiar",
+      "APLI_LABEL": "Asignacion Familiar",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "131",
+      "APLI_DESC": "Devoluciones",
+      "APLI_LABEL": "Devoluciones",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "devolucion_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "22",
+      "APLI_DESC": "Anticipo",
+      "APLI_LABEL": "Anticipo",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "23",
+      "APLI_DESC": "Periodo",
+      "APLI_LABEL": "Periodo",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "periodo_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "24",
+      "APLI_DESC": "Modalidad de Calculo",
+      "APLI_LABEL": "Modalidad de Calculo",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "modalidad_calculo_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "25",
+      "APLI_DESC": "Grupos Variables",
+      "APLI_LABEL": "Grupos Variables",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "grupos_variables_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "26",
+      "APLI_DESC": "Configuracion Variables",
+      "APLI_LABEL": "Configuracion Variables",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "27",
+      "APLI_DESC": "Variables Sistema",
+      "APLI_LABEL": "Variables Sistema",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "variables_sistema_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "28",
+      "APLI_DESC": "Instituciones Previsionales",
+      "APLI_LABEL": "Instituciones Previsionales",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "rela_institucion_grid_new",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "29",
+      "APLI_DESC": "Haberes y Descuentos",
+      "APLI_LABEL": "Haberes y Descuentos",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "30",
+      "APLI_DESC": "Cambio Masiva Salud-AFP",
+      "APLI_LABEL": "Cambio Masiva Salud-AFP",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "31",
+      "APLI_DESC": "Carga Familiar Masiva",
+      "APLI_LABEL": "Carga Familiar Masiva",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "32",
+      "APLI_DESC": "Nomina Bienios",
+      "APLI_LABEL": "Nomina Bienios",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "bienios_personal_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "33",
+      "APLI_DESC": "Procesar Remuneraciones",
+      "APLI_LABEL": "Procesar Remuneraciones",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "103",
+      "APLI_DESC": "Administrar",
+      "APLI_LABEL": "Administrar",
+      "APLI_PADRE": "30",
+      "APLI_LINK": "abrir_carga_SAF",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "104",
+      "APLI_DESC": "Proceso Carga Archivos",
+      "APLI_LABEL": "Proceso Carga Archivos",
+      "APLI_PADRE": "30",
+      "APLI_LINK": "archivos_SAF_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "105",
+      "APLI_DESC": "Carga Masiva",
+      "APLI_LABEL": "Carga Masiva",
+      "APLI_PADRE": "31",
+      "APLI_LINK": "cargar_fami_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "106",
+      "APLI_DESC": "Detalle Aprobacion",
+      "APLI_LABEL": "Detalle Aprobacion",
+      "APLI_PADRE": "31",
+      "APLI_LINK": "archivo_f_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "107",
+      "APLI_DESC": "Procesar",
+      "APLI_LABEL": "Procesar",
+      "APLI_PADRE": "33",
+      "APLI_LINK": "proceso_remu_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "108",
+      "APLI_DESC": "Estadistica de Liquidaciones",
+      "APLI_LABEL": "Estadistica de Liquidaciones",
+      "APLI_PADRE": "33",
+      "APLI_LINK": "graficas_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "109",
+      "APLI_DESC": "Generar y procesar nomina de remuneraciones",
+      "APLI_LABEL": "Generar y procesar nomina",
+      "APLI_PADRE": "33",
+      "APLI_LINK": "dashboard_agrupacion_calculo_renta",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "165",
+      "APLI_DESC": "Reporte resultado proceso",
+      "APLI_LABEL": "Reporte resultado proceso",
+      "APLI_PADRE": "33",
+      "APLI_LINK": "reporte_remuneraciones_control",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "110",
+      "APLI_DESC": "Trabajador",
+      "APLI_LABEL": "Trabajador",
+      "APLI_PADRE": "35",
+      "APLI_LINK": "grid_RHU_CERTIFICADO_RENTA",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "111",
+      "APLI_DESC": "Empresa",
+      "APLI_LABEL": "Empresa",
+      "APLI_PADRE": "35",
+      "APLI_LINK": "certificado_1887_control",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "127",
+      "APLI_DESC": "Configurar Reporte",
+      "APLI_LABEL": "Configurar Reporte",
+      "APLI_PADRE": "4",
+      "APLI_LINK": "reporte_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "128",
+      "APLI_DESC": "Base Renta",
+      "APLI_LABEL": "Base Renta",
+      "APLI_PADRE": "4",
+      "APLI_LINK": "base_renta_control",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "129",
+      "APLI_DESC": "Caja",
+      "APLI_LABEL": "Caja",
+      "APLI_PADRE": "4",
+      "APLI_LINK": "periodo_ano_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "134",
+      "APLI_DESC": "Base Personal ",
+      "APLI_LABEL": "Base Personal ",
+      "APLI_PADRE": "4",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "137",
+      "APLI_DESC": "Emitir Libro Super Intendencia Educacion",
+      "APLI_LABEL": "Emitir Libro Super Intendencia Educacion",
+      "APLI_PADRE": "4",
+      "APLI_LINK": "reporte_supereduc_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "138",
+      "APLI_DESC": "Libro Previred",
+      "APLI_LABEL": "Libro Previred",
+      "APLI_PADRE": "4",
+      "APLI_LINK": "reporte_previred_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "139",
+      "APLI_DESC": "Resumen proceso renumeraciones",
+      "APLI_LABEL": "Resumen proceso renumeraciones",
+      "APLI_PADRE": "4",
+      "APLI_LINK": "resumen_remuneracion_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "140",
+      "APLI_DESC": "Carta de Termino",
+      "APLI_LABEL": "Carta de Termino",
+      "APLI_PADRE": "4",
+      "APLI_LINK": "carta_termino_control",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "141",
+      "APLI_DESC": "Liquidaciones de sueldo por periodo",
+      "APLI_LABEL": "Liquidaciones de sueldo por periodo",
+      "APLI_PADRE": "4",
+      "APLI_LINK": "resumen_liqui_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "172",
+      "APLI_DESC": "Titularidad docente",
+      "APLI_LABEL": "Titularidad docente",
+      "APLI_PADRE": "4",
+      "APLI_LINK": "dashboard_titularidad_docente_principal",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "34",
+      "APLI_DESC": "Liquidacion de Sueldo",
+      "APLI_LABEL": "Liquidacion de Sueldo",
+      "APLI_PADRE": "4",
+      "APLI_LINK": "liquidacion_sueldo_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "35",
+      "APLI_DESC": "Certificados de Renta",
+      "APLI_LABEL": "Certificados de Renta",
+      "APLI_PADRE": "4",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "36",
+      "APLI_DESC": "Libro de remuneraciones",
+      "APLI_LABEL": "Libro de remuneraciones",
+      "APLI_PADRE": "4",
+      "APLI_LINK": "libro_remuneraciones_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "112",
+      "APLI_DESC": "Plantilla",
+      "APLI_LABEL": "Plantilla",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "plantilla_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "113",
+      "APLI_DESC": "Iniciar Carga",
+      "APLI_LABEL": "Iniciar Carga",
+      "APLI_PADRE": "43",
+      "APLI_LINK": "abrir_carga",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "122",
+      "APLI_DESC": "Personal",
+      "APLI_LABEL": "Personal",
+      "APLI_PADRE": "5",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "125",
+      "APLI_DESC": "Remuneraciones",
+      "APLI_LABEL": "Remuneraciones",
+      "APLI_PADRE": "5",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "135",
+      "APLI_DESC": "Sindicatos y Fundaciones",
+      "APLI_LABEL": "Sindicatos y Fundaciones",
+      "APLI_PADRE": "5",
+      "APLI_LINK": "sindicato_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "143",
+      "APLI_DESC": "Cargos por Sector",
+      "APLI_LABEL": "Cargos por Sector",
+      "APLI_PADRE": "5",
+      "APLI_LINK": "cargo_sector_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "173",
+      "APLI_DESC": "Firma encargado documento",
+      "APLI_LABEL": "Firma encargado documento",
+      "APLI_PADRE": "5",
+      "APLI_LINK": "firma_documento_encargado_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "43",
+      "APLI_DESC": "Carga Masiva",
+      "APLI_LABEL": "Carga Masiva",
+      "APLI_PADRE": "5",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "48",
+      "APLI_DESC": "Servidor SMTP",
+      "APLI_LABEL": "Servidor SMTP",
+      "APLI_PADRE": "5",
+      "APLI_LINK": "servidor_smtp_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "52",
+      "APLI_DESC": "Roles",
+      "APLI_LABEL": "Roles",
+      "APLI_PADRE": "7",
+      "APLI_LINK": "roles_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "53",
+      "APLI_DESC": "Usuarios",
+      "APLI_LABEL": "Usuarios",
+      "APLI_PADRE": "7",
+      "APLI_LINK": "usuarios_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "54",
+      "APLI_DESC": "Procesos",
+      "APLI_LABEL": "Procesos",
+      "APLI_PADRE": "7",
+      "APLI_LINK": "sistemas_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "55",
+      "APLI_DESC": "Notificaciones",
+      "APLI_LABEL": "Notificaciones",
+      "APLI_PADRE": "7",
+      "APLI_LINK": "noti_app_form",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "174",
+      "APLI_DESC": "Buscar Curriculum",
+      "APLI_LABEL": "Buscar Curriculum",
+      "APLI_PADRE": "9",
+      "APLI_LINK": "dashboard_buscar_cv_blank",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "175",
+      "APLI_DESC": "Personal APS",
+      "APLI_LABEL": "Personal APS",
+      "APLI_PADRE": "9",
+      "APLI_LINK": "",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "56",
+      "APLI_DESC": "Publicar",
+      "APLI_LABEL": "Publicar",
+      "APLI_PADRE": "9",
+      "APLI_LINK": "publicar_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    },
+    {
+      "APLI_ID": "57",
+      "APLI_DESC": "Buscar Postulante",
+      "APLI_LABEL": "Buscar Postulante",
+      "APLI_PADRE": "9",
+      "APLI_LINK": "buscar_postulante_grid",
+      "APLI_AYUDA": "",
+      "APLI_TARGET": "_self"
+    }
+  ],
+  "rhu_roles": [
+    {
+      "ROLE_ID": "1",
+      "ROLE_DESC": "TEST"
+    },
+    {
+      "ROLE_ID": "21",
+      "ROLE_DESC": "REMUNERACIONES"
+    },
+    {
+      "ROLE_ID": "41",
+      "ROLE_DESC": "ADMIN"
+    },
+    {
+      "ROLE_ID": "42",
+      "ROLE_DESC": "JURID"
+    },
+    {
+      "ROLE_ID": "43",
+      "ROLE_DESC": "FUNC"
+    },
+    {
+      "ROLE_ID": "61",
+      "ROLE_DESC": "CARRERA FUNCIONARIA"
+    },
+    {
+      "ROLE_ID": "62",
+      "ROLE_DESC": "RRHH_SALUD"
+    },
+    {
+      "ROLE_ID": "63",
+      "ROLE_DESC": "RECLUTAMIENTO_SALUD"
+    },
+    {
+      "ROLE_ID": "82",
+      "ROLE_DESC": "PERSONAL APS"
+    }
+  ],
+  "rhu_parametros": [
+    {
+      "PARA_CODIGO": "CLIENT_KEY",
+      "PARA_DESC": "Indetificador de sistema frente a AUTH",
+      "PARA_VALOR": "7474-R2HR-35DR-HAD7-5E9R-E966-63HR-B85H"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_CLIENT_ID",
+      "PARA_DESC": "Cliente ID para debug LOGIN~SERVICES (separados por : antes y despues)",
+      "PARA_VALOR": ":FALSE~FALSE:"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_CLIENT_INFO",
+      "PARA_DESC": "Cliente INFO para debug TERMINAL~OS~SERVICE (separados por : antes y despues)",
+      "PARA_VALOR": ":FALSE~FALSE~FALSE:"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_LEVEL",
+      "PARA_DESC": "Parametro que indica el nivel de Debug a realizar. Ver PKG_DEBUG",
+      "PARA_VALOR": "7"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_MODE",
+      "PARA_DESC": "Indica los usuarios (separados por : antes y despues) que se le debe hacer Debug (FALSE => NO)",
+      "PARA_VALOR": ":FALSE:"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_MODE_TRACE",
+      "PARA_DESC": "Indica donde se debe realizar el trace (FILE, ORACLE)",
+      "PARA_VALOR": "FILE"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_TRACE_LEVEL",
+      "PARA_DESC": "Parametro que indica el nivel de trace a realizar con SET EVENTS=10938 en el package de Debug",
+      "PARA_VALOR": "1"
+    },
+    {
+      "PARA_CODIGO": "DELTA_CONTRATO",
+      "PARA_DESC": "Tiempo en meses para ver contratos",
+      "PARA_VALOR": "12"
+    },
+    {
+      "PARA_CODIGO": "FMT_MSG_GEN",
+      "PARA_DESC": "Formato para el nombre del archivo de trace general. % se reemplazara por fecha.",
+      "PARA_VALOR": "msg_RHU_%.log"
+    },
+    {
+      "PARA_CODIGO": "LIMITE_PERMISO_COVID",
+      "PARA_DESC": "FECHA LIMITE PARA HACER USO DEL PERMISO COVID EN SALUD",
+      "PARA_VALOR": "2025-05-01"
+    },
+    {
+      "PARA_CODIGO": "MAIL_NOTIFICACION",
+      "PARA_DESC": "Correo al cual hay que notificar",
+      "PARA_VALOR": "lcorrea@pad.cl"
+    },
+    {
+      "PARA_CODIGO": "MAIL_UMBRAL",
+      "PARA_DESC": "Correos maximos por dia",
+      "PARA_VALOR": "1000"
+    },
+    {
+      "PARA_CODIGO": "MODE_GOD",
+      "PARA_DESC": "Usuario con todos los privilegios",
+      "PARA_VALOR": "25922729"
+    },
+    {
+      "PARA_CODIGO": "MODE_LOGGIN",
+      "PARA_DESC": "Indica si se almacena usuario conectado (S/N)",
+      "PARA_VALOR": "S"
+    },
+    {
+      "PARA_CODIGO": "PATH_MSG_GEN",
+      "PARA_DESC": "Path para los archivos de trace general",
+      "PARA_VALOR": "PADTRACE"
+    },
+    {
+      "PARA_CODIGO": "VALOR_BIENIO",
+      "PARA_DESC": "VALOR QUE REPRESENTA VALOR DEL BIENIO EN FORMATO NNNNDD (se divide por 100)",
+      "PARA_VALOR": "53333"
+    }
+  ],
+  "rhu_top_used_apps": [
+    {
+      "LOAP_APP_NOMBRE": "ficha_personal_grid",
+      "USOS": "6164",
+      "ULTIMO_USO": "2026-01-29"
+    },
+    {
+      "LOAP_APP_NOMBRE": "carrera_funcionaria_grid",
+      "USOS": "2305",
+      "ULTIMO_USO": "2026-01-21"
+    },
+    {
+      "LOAP_APP_NOMBRE": "archivo_hd_grid",
+      "USOS": "809",
+      "ULTIMO_USO": "2024-02-12"
+    },
+    {
+      "LOAP_APP_NOMBRE": "dashboard_licencias_principal",
+      "USOS": "549",
+      "ULTIMO_USO": "2024-04-18"
+    },
+    {
+      "LOAP_APP_NOMBRE": "cargar_habydesc_blank",
+      "USOS": "427",
+      "ULTIMO_USO": "2021-03-14"
+    },
+    {
+      "LOAP_APP_NOMBRE": "dominio_grid",
+      "USOS": "374",
+      "ULTIMO_USO": "2024-09-24"
+    },
+    {
+      "LOAP_APP_NOMBRE": "Finiquito_grid",
+      "USOS": "274",
+      "ULTIMO_USO": "2024-04-18"
+    },
+    {
+      "LOAP_APP_NOMBRE": "archivos_SAF_grid",
+      "USOS": "223",
+      "ULTIMO_USO": "2021-03-15"
+    },
+    {
+      "LOAP_APP_NOMBRE": "sala_cuna_asignar_grid",
+      "USOS": "193",
+      "ULTIMO_USO": "2020-06-19"
+    },
+    {
+      "LOAP_APP_NOMBRE": "proceso_remu_grid",
+      "USOS": "177",
+      "ULTIMO_USO": "2023-03-22"
+    },
+    {
+      "LOAP_APP_NOMBRE": "capacitacion_individual_grid",
+      "USOS": "172",
+      "ULTIMO_USO": "2026-01-21"
+    },
+    {
+      "LOAP_APP_NOMBRE": "dashboard_busqueda_sala_cuna_blank",
+      "USOS": "160",
+      "ULTIMO_USO": "2020-11-09"
+    },
+    {
+      "LOAP_APP_NOMBRE": "buscar_postulante_grid",
+      "USOS": "154",
+      "ULTIMO_USO": "2026-05-05"
+    },
+    {
+      "LOAP_APP_NOMBRE": "liquidacion_blank",
+      "USOS": "146",
+      "ULTIMO_USO": "2020-08-14"
+    },
+    {
+      "LOAP_APP_NOMBRE": "contratos_pendientes_dashboard_blank",
+      "USOS": "141",
+      "ULTIMO_USO": "2025-01-24"
+    },
+    {
+      "LOAP_APP_NOMBRE": "administrar_variables_grid",
+      "USOS": "125",
+      "ULTIMO_USO": "2023-07-25"
+    },
+    {
+      "LOAP_APP_NOMBRE": "vacaciones_grid",
+      "USOS": "125",
+      "ULTIMO_USO": "2024-04-18"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grid_permiso_principal",
+      "USOS": "117",
+      "ULTIMO_USO": "2024-08-07"
+    },
+    {
+      "LOAP_APP_NOMBRE": "publicar_grid",
+      "USOS": "117",
+      "ULTIMO_USO": "2026-04-27"
+    },
+    {
+      "LOAP_APP_NOMBRE": "graficas_blank",
+      "USOS": "115",
+      "ULTIMO_USO": "2023-03-22"
+    },
+    {
+      "LOAP_APP_NOMBRE": "archivos_grid",
+      "USOS": "113",
+      "ULTIMO_USO": "2024-02-12"
+    },
+    {
+      "LOAP_APP_NOMBRE": "dashboard_informe_estadisticas_licencias_blank",
+      "USOS": "105",
+      "ULTIMO_USO": "2020-10-22"
+    },
+    {
+      "LOAP_APP_NOMBRE": "sala_cuna_grid",
+      "USOS": "95",
+      "ULTIMO_USO": "2020-12-30"
+    },
+    {
+      "LOAP_APP_NOMBRE": "usuarios_grid",
+      "USOS": "91",
+      "ULTIMO_USO": "2026-04-21"
+    },
+    {
+      "LOAP_APP_NOMBRE": "dashboard_busqueda_lice_pagas_blank",
+      "USOS": "91",
+      "ULTIMO_USO": "2020-09-15"
+    },
+    {
+      "LOAP_APP_NOMBRE": "vacaciones_jefedirecto_grid",
+      "USOS": "90",
+      "ULTIMO_USO": "2022-06-22"
+    },
+    {
+      "LOAP_APP_NOMBRE": "abrir_carga_SAF",
+      "USOS": "86",
+      "ULTIMO_USO": "2021-03-12"
+    },
+    {
+      "LOAP_APP_NOMBRE": "dashboard_titularidad_docente_principal",
+      "USOS": "81",
+      "ULTIMO_USO": "2023-11-09"
+    },
+    {
+      "LOAP_APP_NOMBRE": "roles_grid",
+      "USOS": "72",
+      "ULTIMO_USO": "2026-04-21"
+    },
+    {
+      "LOAP_APP_NOMBRE": "dashboard_informe_licencias_blank",
+      "USOS": "71",
+      "ULTIMO_USO": "2022-08-29"
+    },
+    {
+      "LOAP_APP_NOMBRE": "periodo_grid",
+      "USOS": "68",
+      "ULTIMO_USO": "2023-03-22"
+    },
+    {
+      "LOAP_APP_NOMBRE": "ODI_GRID",
+      "USOS": "67",
+      "ULTIMO_USO": "2025-01-24"
+    },
+    {
+      "LOAP_APP_NOMBRE": "formulas_grid",
+      "USOS": "64",
+      "ULTIMO_USO": "2023-07-25"
+    },
+    {
+      "LOAP_APP_NOMBRE": "abrir_carga_licencia",
+      "USOS": "63",
+      "ULTIMO_USO": "2023-04-27"
+    },
+    {
+      "LOAP_APP_NOMBRE": "sala_cuna_termino_dashboard_blank",
+      "USOS": "57",
+      "ULTIMO_USO": "2020-10-21"
+    },
+    {
+      "LOAP_APP_NOMBRE": "archivo_af_grid",
+      "USOS": "50",
+      "ULTIMO_USO": "2021-03-15"
+    },
+    {
+      "LOAP_APP_NOMBRE": "mantenedor_contratos_ley_form",
+      "USOS": "47",
+      "ULTIMO_USO": "2024-09-03"
+    },
+    {
+      "LOAP_APP_NOMBRE": "noti_app_form",
+      "USOS": "44",
+      "ULTIMO_USO": "2024-02-19"
+    },
+    {
+      "LOAP_APP_NOMBRE": "archivo_f_grid",
+      "USOS": "42",
+      "ULTIMO_USO": "2021-03-10"
+    },
+    {
+      "LOAP_APP_NOMBRE": "ofrecimiento_sala_cuna_dashboard_blank",
+      "USOS": "42",
+      "ULTIMO_USO": "2020-10-23"
+    },
+    {
+      "LOAP_APP_NOMBRE": "valor_hora_docente_grid",
+      "USOS": "37",
+      "ULTIMO_USO": "2020-11-06"
+    },
+    {
+      "LOAP_APP_NOMBRE": "establecimiento_form",
+      "USOS": "35",
+      "ULTIMO_USO": "2025-05-14"
+    },
+    {
+      "LOAP_APP_NOMBRE": "sindicato_grid",
+      "USOS": "34",
+      "ULTIMO_USO": "2021-10-20"
+    },
+    {
+      "LOAP_APP_NOMBRE": "rela_institucion_grid_new",
+      "USOS": "34",
+      "ULTIMO_USO": "2024-03-19"
+    },
+    {
+      "LOAP_APP_NOMBRE": "contrato_notificaciones_dashboard_blank",
+      "USOS": "32",
+      "ULTIMO_USO": "2024-04-18"
+    },
+    {
+      "LOAP_APP_NOMBRE": "iniciacion_capacitacion_grid",
+      "USOS": "31",
+      "ULTIMO_USO": "2022-11-17"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grid_RHU_EVALUACION",
+      "USOS": "31",
+      "ULTIMO_USO": "2025-05-14"
+    },
+    {
+      "LOAP_APP_NOMBRE": "representante_legal_grid",
+      "USOS": "29",
+      "ULTIMO_USO": "2024-02-13"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grid_RHU_BENEFICIO",
+      "USOS": "29",
+      "ULTIMO_USO": "2020-10-13"
+    },
+    {
+      "LOAP_APP_NOMBRE": "plantilla_grid",
+      "USOS": "28",
+      "ULTIMO_USO": "2021-10-20"
+    },
+    {
+      "LOAP_APP_NOMBRE": "permiso_form",
+      "USOS": "24",
+      "ULTIMO_USO": "2024-02-13"
+    },
+    {
+      "LOAP_APP_NOMBRE": "contractual_grid",
+      "USOS": "23",
+      "ULTIMO_USO": "2024-09-03"
+    },
+    {
+      "LOAP_APP_NOMBRE": "bienestar_grid",
+      "USOS": "22",
+      "ULTIMO_USO": "2020-12-30"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grupos_variables_form",
+      "USOS": "21",
+      "ULTIMO_USO": "2022-07-26"
+    },
+    {
+      "LOAP_APP_NOMBRE": "permiso_principal_jefedirecto_grid",
+      "USOS": "21",
+      "ULTIMO_USO": "2022-08-22"
+    },
+    {
+      "LOAP_APP_NOMBRE": "liquidacion_sueldo_grid",
+      "USOS": "21",
+      "ULTIMO_USO": "2024-05-30"
+    },
+    {
+      "LOAP_APP_NOMBRE": "variables_sistema_grid",
+      "USOS": "21",
+      "ULTIMO_USO": "2023-01-11"
+    },
+    {
+      "LOAP_APP_NOMBRE": "resumen_liqui_blank",
+      "USOS": "20",
+      "ULTIMO_USO": "2024-05-30"
+    },
+    {
+      "LOAP_APP_NOMBRE": "modalidad_calculo_form",
+      "USOS": "20",
+      "ULTIMO_USO": "2024-03-21"
+    },
+    {
+      "LOAP_APP_NOMBRE": "beneficios_trabajador_grid",
+      "USOS": "20",
+      "ULTIMO_USO": "2020-10-13"
+    },
+    {
+      "LOAP_APP_NOMBRE": "denuncia_grid",
+      "USOS": "18",
+      "ULTIMO_USO": "2024-02-12"
+    },
+    {
+      "LOAP_APP_NOMBRE": "cargo_sector_form",
+      "USOS": "17",
+      "ULTIMO_USO": "2024-02-19"
+    },
+    {
+      "LOAP_APP_NOMBRE": "cargar_asig_blank",
+      "USOS": "17",
+      "ULTIMO_USO": "2021-03-02"
+    },
+    {
+      "LOAP_APP_NOMBRE": "principal_carga_masiva_lice_estado_blank",
+      "USOS": "17",
+      "ULTIMO_USO": "2023-04-27"
+    },
+    {
+      "LOAP_APP_NOMBRE": "personas_firmas",
+      "USOS": "16",
+      "ULTIMO_USO": "2025-05-14"
+    },
+    {
+      "LOAP_APP_NOMBRE": "cargar_fami_blank",
+      "USOS": "15",
+      "ULTIMO_USO": "2021-03-02"
+    },
+    {
+      "LOAP_APP_NOMBRE": "dashboard_busqueda_lice_paradesc_blank",
+      "USOS": "14",
+      "ULTIMO_USO": "2023-04-27"
+    },
+    {
+      "LOAP_APP_NOMBRE": "form_RHU_LICE_MEDICA_6Mf_iltro_restore",
+      "USOS": "13",
+      "ULTIMO_USO": "2020-08-27"
+    },
+    {
+      "LOAP_APP_NOMBRE": "libro_remuneraciones_grid",
+      "USOS": "13",
+      "ULTIMO_USO": "2024-04-01"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grid_CAPACITACION_SEGUIMIENTO_CURSO",
+      "USOS": "12",
+      "ULTIMO_USO": "2022-11-17"
+    },
+    {
+      "LOAP_APP_NOMBRE": "sistemas_grid",
+      "USOS": "12",
+      "ULTIMO_USO": "2024-02-19"
+    },
+    {
+      "LOAP_APP_NOMBRE": "vacaciones_sge_grid",
+      "USOS": "12",
+      "ULTIMO_USO": "2021-08-23"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grid_RHU_LIME_DESCUENTO_V",
+      "USOS": "11",
+      "ULTIMO_USO": "2020-06-30"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grid_HISTORIAL_CURSO",
+      "USOS": "11",
+      "ULTIMO_USO": "2022-11-17"
+    },
+    {
+      "LOAP_APP_NOMBRE": "empresa_form",
+      "USOS": "9",
+      "ULTIMO_USO": "2025-05-14"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grid_CAPACITACION_ASIGNAR_PARTICIPANTES",
+      "USOS": "9",
+      "ULTIMO_USO": "2022-11-17"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grid_CAPACITACION_CREAR_CURSO",
+      "USOS": "8",
+      "ULTIMO_USO": "2022-11-17"
+    },
+    {
+      "LOAP_APP_NOMBRE": "dashboard_carta_termino_blank",
+      "USOS": "8",
+      "ULTIMO_USO": "2022-12-22"
+    },
+    {
+      "LOAP_APP_NOMBRE": "bono_responsabilidad_form",
+      "USOS": "8",
+      "ULTIMO_USO": "2020-11-17"
+    },
+    {
+      "LOAP_APP_NOMBRE": "bienios_grid",
+      "USOS": "7",
+      "ULTIMO_USO": "2020-10-13"
+    },
+    {
+      "LOAP_APP_NOMBRE": "modalidad_calculo_periodo_grid",
+      "USOS": "7",
+      "ULTIMO_USO": "2022-07-26"
+    },
+    {
+      "LOAP_APP_NOMBRE": "escala_sueldo_grid",
+      "USOS": "7",
+      "ULTIMO_USO": "2021-02-01"
+    },
+    {
+      "LOAP_APP_NOMBRE": "carta_termino_control",
+      "USOS": "7",
+      "ULTIMO_USO": "2020-10-16"
+    },
+    {
+      "LOAP_APP_NOMBRE": "modalidad_calculo_agrupar_variables_grid",
+      "USOS": "6",
+      "ULTIMO_USO": "2021-03-14"
+    },
+    {
+      "LOAP_APP_NOMBRE": "anticipo_grid",
+      "USOS": "6",
+      "ULTIMO_USO": "2026-01-27"
+    },
+    {
+      "LOAP_APP_NOMBRE": "resumen_remuneracion_grid",
+      "USOS": "6",
+      "ULTIMO_USO": "2021-03-04"
+    },
+    {
+      "LOAP_APP_NOMBRE": "devolucion_grid",
+      "USOS": "6",
+      "ULTIMO_USO": "2020-12-16"
+    },
+    {
+      "LOAP_APP_NOMBRE": "base_renta_control",
+      "USOS": "6",
+      "ULTIMO_USO": "2021-05-31"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grid_RHU_CERTIFICADO_RENTA",
+      "USOS": "5",
+      "ULTIMO_USO": "2024-05-30"
+    },
+    {
+      "LOAP_APP_NOMBRE": "servidor_smtp_form",
+      "USOS": "5",
+      "ULTIMO_USO": "2022-12-21"
+    },
+    {
+      "LOAP_APP_NOMBRE": "base_personal_control",
+      "USOS": "5",
+      "ULTIMO_USO": "2021-02-25"
+    },
+    {
+      "LOAP_APP_NOMBRE": "bienios_personal_grid",
+      "USOS": "4",
+      "ULTIMO_USO": "2024-01-12"
+    },
+    {
+      "LOAP_APP_NOMBRE": "modalidad_calculo_grupos_variables_grid",
+      "USOS": "4",
+      "ULTIMO_USO": "2021-03-14"
+    },
+    {
+      "LOAP_APP_NOMBRE": "epp_form",
+      "USOS": "4",
+      "ULTIMO_USO": "2024-02-13"
+    },
+    {
+      "LOAP_APP_NOMBRE": "mantenedor_relacion_establecimiento_centro_form",
+      "USOS": "3",
+      "ULTIMO_USO": "2025-05-14"
+    },
+    {
+      "LOAP_APP_NOMBRE": "abrir_carga",
+      "USOS": "3",
+      "ULTIMO_USO": "2020-11-13"
+    },
+    {
+      "LOAP_APP_NOMBRE": "reporte_grid",
+      "USOS": "3",
+      "ULTIMO_USO": "2020-10-15"
+    },
+    {
+      "LOAP_APP_NOMBRE": "entrega_epp_grid",
+      "USOS": "3",
+      "ULTIMO_USO": "2024-02-12"
+    },
+    {
+      "LOAP_APP_NOMBRE": "autorizar_excepcion_mantenedor_form",
+      "USOS": "3",
+      "ULTIMO_USO": "2024-02-19"
+    },
+    {
+      "LOAP_APP_NOMBRE": "base_personal_ext_control",
+      "USOS": "2",
+      "ULTIMO_USO": "2021-02-25"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grid_PREVENCION_ASIGNAR_PARTICIPANTES",
+      "USOS": "2",
+      "ULTIMO_USO": "2024-02-12"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grid_RHU_COMITE_PARITARIO",
+      "USOS": "2",
+      "ULTIMO_USO": "2022-07-18"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grid_PREVENCION_REGISTRO_ACCIDENTE",
+      "USOS": "2",
+      "ULTIMO_USO": "2020-10-02"
+    },
+    {
+      "LOAP_APP_NOMBRE": "Seleccion_documento_control",
+      "USOS": "2",
+      "ULTIMO_USO": "2020-10-02"
+    },
+    {
+      "LOAP_APP_NOMBRE": "permiso_principal_sge_grid",
+      "USOS": "2",
+      "ULTIMO_USO": "2022-06-22"
+    },
+    {
+      "LOAP_APP_NOMBRE": "reporte_previred_grid",
+      "USOS": "2",
+      "ULTIMO_USO": "2020-11-18"
+    },
+    {
+      "LOAP_APP_NOMBRE": "reporte_supereduc_grid",
+      "USOS": "2",
+      "ULTIMO_USO": "2021-02-25"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grid_PREVENCION_SEGUIMIENTO_CURSO",
+      "USOS": "2",
+      "ULTIMO_USO": "2024-02-12"
+    },
+    {
+      "LOAP_APP_NOMBRE": "reunion_comite_grid",
+      "USOS": "1",
+      "ULTIMO_USO": "2020-06-10"
+    },
+    {
+      "LOAP_APP_NOMBRE": "grid_PREVENCION_CREAR_CURSO",
+      "USOS": "1",
+      "ULTIMO_USO": "2020-08-06"
+    },
+    {
+      "LOAP_APP_NOMBRE": "anticipo_sge_grid",
+      "USOS": "1",
+      "ULTIMO_USO": "2026-01-27"
+    },
+    {
+      "LOAP_APP_NOMBRE": "anticipo_jefedirecto_grid",
+      "USOS": "1",
+      "ULTIMO_USO": "2026-01-27"
+    },
+    {
+      "LOAP_APP_NOMBRE": "dias_feriados_form",
+      "USOS": "1",
+      "ULTIMO_USO": "2020-10-21"
+    }
+  ],
+  "rhu_domains_summary": [
+    {
+      "APDO_DOMAIN": "ACCION_CONT_NOTI",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "AFP-CTA-AHORRO2",
+      "CANT": "7"
+    },
+    {
+      "APDO_DOMAIN": "APVI-APVC-AFP",
+      "CANT": "7"
+    },
+    {
+      "APDO_DOMAIN": "APVI-APVC-FFMM",
+      "CANT": "23"
+    },
+    {
+      "APDO_DOMAIN": "APVI-APVC-SEGUROS",
+      "CANT": "29"
+    },
+    {
+      "APDO_DOMAIN": "ARTICULO_SALUD",
+      "CANT": "16"
+    },
+    {
+      "APDO_DOMAIN": "BANCO",
+      "CANT": "23"
+    },
+    {
+      "APDO_DOMAIN": "CARGO",
+      "CANT": "132"
+    },
+    {
+      "APDO_DOMAIN": "CARGO_COMITE",
+      "CANT": "8"
+    },
+    {
+      "APDO_DOMAIN": "CARGO_SINDICATO",
+      "CANT": "7"
+    },
+    {
+      "APDO_DOMAIN": "CATEGORIA",
+      "CANT": "6"
+    },
+    {
+      "APDO_DOMAIN": "CATE_FALLECIDO",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "CAUSAL_DENUNCIA",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "CAUSAL_DESPIDO",
+      "CANT": "32"
+    },
+    {
+      "APDO_DOMAIN": "CAUSAL_RECHAZO_LICENCIA",
+      "CANT": "5"
+    },
+    {
+      "APDO_DOMAIN": "CCAF",
+      "CANT": "6"
+    },
+    {
+      "APDO_DOMAIN": "CONCEPTO_DEV",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "CONCEPTO_PAGO",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "CONTRATRO_NOTI",
+      "CANT": "6"
+    },
+    {
+      "APDO_DOMAIN": "DM_RNTA_MAX_IMP",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "DM_RNTA_MIN_IMP",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "DOC_CONTRATO",
+      "CANT": "20"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_ACCIDENTE",
+      "CANT": "5"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_ANTICIPO",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_ARCHIVO",
+      "CANT": "7"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_ASIG",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_ASIS_CAPAC",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_BENEFICIO",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_CAPACITACION",
+      "CANT": "9"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_CAPA_TRAB",
+      "CANT": "5"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_CIVIL",
+      "CANT": "5"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_CONTRATO",
+      "CANT": "8"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_DENUNCIA",
+      "CANT": "17"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_DEV",
+      "CANT": "5"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_EPP",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_EVAL",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_EVALUACION",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_FINIQUITO",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_FORMULA",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_LICENCIA",
+      "CANT": "10"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_LIC_MAIL",
+      "CANT": "5"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_PAGO",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_PERIODO",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_PERMISO",
+      "CANT": "5"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_POSTULACION",
+      "CANT": "10"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_RECLU",
+      "CANT": "7"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_REGLA",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_TELEFONO",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "ESTADO_VACACIONES",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "ESTA_POS_USUA",
+      "CANT": "7"
+    },
+    {
+      "APDO_DOMAIN": "ESTA_REMUN_BATCH",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "FIRMAS_DOC",
+      "CANT": "11"
+    },
+    {
+      "APDO_DOMAIN": "FUNCION",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "FUN_REPRE",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "GRADO_EDUCACION",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "IDIOMA",
+      "CANT": "7"
+    },
+    {
+      "APDO_DOMAIN": "JORNADA_SALA_CUNA",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "LICE_CONDUCIR",
+      "CANT": "12"
+    },
+    {
+      "APDO_DOMAIN": "LUGAR_REPOSO",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "MODO_LICENCIA",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "MODULO",
+      "CANT": "9"
+    },
+    {
+      "APDO_DOMAIN": "MUTUAL",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "NACIONALIDAD",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "NIVEL",
+      "CANT": "18"
+    },
+    {
+      "APDO_DOMAIN": "NIVEL_CAPACITACION",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "NIVEL_EDUCA",
+      "CANT": "16"
+    },
+    {
+      "APDO_DOMAIN": "NIVEL_ESTUDIO",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "NOTIF_SALACUNA",
+      "CANT": "1"
+    },
+    {
+      "APDO_DOMAIN": "ORIGEN_CAPACITACION",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "ORIGEN_DIR",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "ORIGEN_TEL",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "ORIGEN_VALOR",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "PARENTESCO",
+      "CANT": "14"
+    },
+    {
+      "APDO_DOMAIN": "PARENTESCO_FALLECIDO",
+      "CANT": "6"
+    },
+    {
+      "APDO_DOMAIN": "PREVISION",
+      "CANT": "11"
+    },
+    {
+      "APDO_DOMAIN": "PROCE_EVAL",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "PROC_CONT_NOTI",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "PROC_EVAL_DESEM",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "PROFESION_ACTIVIDAD",
+      "CANT": "119"
+    },
+    {
+      "APDO_DOMAIN": "REMUN_BATCH",
+      "CANT": "10"
+    },
+    {
+      "APDO_DOMAIN": "REPORTE",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "SALUD",
+      "CANT": "14"
+    },
+    {
+      "APDO_DOMAIN": "SECTOR",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "SEXO",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "SISTEMA_PAGO",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "SITUACION_PREVISIONAL",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "SITUA_MINISTERIAL",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "TIEMPO_PREGUNTA",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_ACCIDENTE",
+      "CANT": "6"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_ACTIVIDAD",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_ASOCIACION",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_CARGA",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_CONTRATO",
+      "CANT": "9"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_COTIZA_SALUD",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_CUENTA",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_DOC",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_ESTA_VIG",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_EXCEP",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_EXTENSION",
+      "CANT": "7"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_FINIQUITO",
+      "CANT": "12"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_INSTITUCION",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_LEY",
+      "CANT": "6"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_LICENCIA",
+      "CANT": "8"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_MONEDA",
+      "CANT": "7"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_PERMISO",
+      "CANT": "14"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_PREV_SALUD",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_PROFESIONAL",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_REPOSO",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_REPOSO_PARCIAL",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_RESOLUCION",
+      "CANT": "6"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_RESOL_DENUNCIA",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_SECCION_REPORTE",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_TELEFONO",
+      "CANT": "3"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_VALOR",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "TIPO_VARIABLE",
+      "CANT": "2"
+    },
+    {
+      "APDO_DOMAIN": "TRAMO",
+      "CANT": "4"
+    },
+    {
+      "APDO_DOMAIN": "VIGENCIA",
+      "CANT": "2"
+    }
+  ],
+  "pdir_apps": [
+    {
+      "APPS_NOMBRE": "dashboard_libro_class_asis_conso_x_sost_blank",
+      "APP_MODULO": "Asistencia - Estados consolidados",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_libro_class_asis_estad_x_estab_blank",
+      "APP_MODULO": "Asistencia - Estadisticas de firmas por colegio",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_libro_class_firmas_x_estab_blank",
+      "APP_MODULO": "Asistencia - Reporte firmas por colegio",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_libro_class_sem_x_bloque_blank",
+      "APP_MODULO": "Asistencia - Revision semanal por bloque horario",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_asistencia_consolidada_blank",
+      "APP_MODULO": "Asistencia consolidad por periodo",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_asis_diaria_mensual_detalle_blank",
+      "APP_MODULO": "Asistencia diaria-mensual por colegio",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_asis_media_mensual_blank",
+      "APP_MODULO": "Asistencia media mensual",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_asis_mensual_detallada_blank",
+      "APP_MODULO": "Asistencia mensual detallada",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_riesgo_cosolidado_sostenedor_blank",
+      "APP_MODULO": "Casos de riesgo consolidado",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_riesgos_x_establecimiento_blank",
+      "APP_MODULO": "Casos de riesgo por establecimiento",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "blank_dashboard_director_new",
+      "APP_MODULO": "Dashboard por establecimiento",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "blank_dashboard_total",
+      "APP_MODULO": "Dashboard total",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_reporte_inasis_mensual_blank",
+      "APP_MODULO": "Inasistencia anual detallada por curso",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_libro_class_lecc_conso_x_sost_blank",
+      "APP_MODULO": "Leccionario - Estados consolidados",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_libro_class_lecc_estad_x_estab_blank",
+      "APP_MODULO": "Leccionario - Estadisticas de firmas por colegio",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_libro_class_lecc_firmas_x_estab_blank",
+      "APP_MODULO": "Leccionario - Reporte firmas por colegio",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_desempeno_comparado_establecimiento_blank",
+      "APP_MODULO": "Niveles de desempe?o comparados por establecimiento",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_desempeno_consolidado_sostenedor",
+      "APP_MODULO": "Niveles de desempe?o consolidados",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_desempeno_x_establecimiento",
+      "APP_MODULO": "Niveles de desempe?o por establecimiento",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_notas_x_asignatura",
+      "APP_MODULO": "Notas por asignatura",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_asignaturas_colegio",
+      "APP_MODULO": "Promedio de asignaturas por colegio",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_promedio_comparados_x_estab",
+      "APP_MODULO": "Promedios comparados por establecimiento",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_promedios_x_estab",
+      "APP_MODULO": "Promedios por establecimiento",
+      "APPS_ES_PAGADO": "S"
+    },
+    {
+      "APPS_NOMBRE": "dashboard_reporte_subve_mensual_blank",
+      "APP_MODULO": "Reporte mensual subvenciones",
+      "APPS_ES_PAGADO": "S"
+    }
+  ],
+  "pdir_used_apps": [
+    {
+      "APPLICATION": "menu",
+      "ACTION": "access",
+      "USOS": "1447",
+      "ULTIMO_USO": "2026-11-10"
+    },
+    {
+      "APPLICATION": "inasis_det_curso_control",
+      "ACTION": "access",
+      "USOS": "313",
+      "ULTIMO_USO": "2026-11-10"
+    },
+    {
+      "APPLICATION": "asistencia_consolidada_control",
+      "ACTION": "access",
+      "USOS": "214",
+      "ULTIMO_USO": "2026-11-06"
+    },
+    {
+      "APPLICATION": "asis_mensual_detallada_control",
+      "ACTION": "access",
+      "USOS": "213",
+      "ULTIMO_USO": "2026-11-06"
+    },
+    {
+      "APPLICATION": "asistencia_media_mensual_control",
+      "ACTION": "access",
+      "USOS": "168",
+      "ULTIMO_USO": "2026-11-06"
+    },
+    {
+      "APPLICATION": "riesgo_x_estab_control",
+      "ACTION": "access",
+      "USOS": "165",
+      "ULTIMO_USO": "2026-10-20"
+    },
+    {
+      "APPLICATION": "asis_subvenciones_control",
+      "ACTION": "access",
+      "USOS": "157",
+      "ULTIMO_USO": "2026-11-06"
+    },
+    {
+      "APPLICATION": "asis_mensual_por_colegio_control",
+      "ACTION": "access",
+      "USOS": "131",
+      "ULTIMO_USO": "2026-11-10"
+    },
+    {
+      "APPLICATION": "riesgo_consolidado_sostenedor_control",
+      "ACTION": "access",
+      "USOS": "124",
+      "ULTIMO_USO": "2026-10-20"
+    },
+    {
+      "APPLICATION": "control_notas_x_asignatura",
+      "ACTION": "access",
+      "USOS": "100",
+      "ULTIMO_USO": "2026-10-20"
+    },
+    {
+      "APPLICATION": "control_libro_clases_asis_consolidad_x_sost",
+      "ACTION": "access",
+      "USOS": "92",
+      "ULTIMO_USO": "2026-11-06"
+    },
+    {
+      "APPLICATION": "control_desempeno_consolidado_sostenedor",
+      "ACTION": "access",
+      "USOS": "75",
+      "ULTIMO_USO": "2026-10-14"
+    },
+    {
+      "APPLICATION": "promedios_x_estab_control",
+      "ACTION": "access",
+      "USOS": "51",
+      "ULTIMO_USO": "2026-09-25"
+    },
+    {
+      "APPLICATION": "control_libro_class_firmas_x_estab",
+      "ACTION": "access",
+      "USOS": "50",
+      "ULTIMO_USO": "2026-09-09"
+    },
+    {
+      "APPLICATION": "Promedio_asignatura_colegio_control",
+      "ACTION": "access",
+      "USOS": "49",
+      "ULTIMO_USO": "2026-09-21"
+    },
+    {
+      "APPLICATION": "control_desempeno_x_establecimiento",
+      "ACTION": "access",
+      "USOS": "49",
+      "ULTIMO_USO": "2026-09-25"
+    },
+    {
+      "APPLICATION": "control_libro_class_firmas_x_estab_lecc",
+      "ACTION": "access",
+      "USOS": "45",
+      "ULTIMO_USO": "2026-10-09"
+    },
+    {
+      "APPLICATION": "control_libro_clases_lecc_consolidad_x_sost",
+      "ACTION": "access",
+      "USOS": "38",
+      "ULTIMO_USO": "2026-10-02"
+    },
+    {
+      "APPLICATION": "control_libro_class_asis_estad_x_estab",
+      "ACTION": "access",
+      "USOS": "37",
+      "ULTIMO_USO": "2026-10-09"
+    },
+    {
+      "APPLICATION": "control_libro_class_sem_x_bloque",
+      "ACTION": "access",
+      "USOS": "33",
+      "ULTIMO_USO": "2026-11-03"
+    },
+    {
+      "APPLICATION": "desempeno_comparado_establecimiento_control_v3",
+      "ACTION": "access",
+      "USOS": "27",
+      "ULTIMO_USO": "2026-06-06"
+    },
+    {
+      "APPLICATION": "control_libro_class_lecc_estad_x_estab",
+      "ACTION": "access",
+      "USOS": "23",
+      "ULTIMO_USO": "2026-09-25"
+    },
+    {
+      "APPLICATION": "control_promedio_comparados_x_estab",
+      "ACTION": "access",
+      "USOS": "23",
+      "ULTIMO_USO": "2026-07-27"
+    },
+    {
+      "APPLICATION": "control_promedio_comparados_x_estab_mob",
+      "ACTION": "access",
+      "USOS": "3",
+      "ULTIMO_USO": "2026-05-27"
+    }
+  ],
+  "pdir_parametros": [
+    {
+      "PARA_COD": "CORREOS_COPIA",
+      "PARA_DESC": "Lista de correos a copiar o ND en caso de no desear CC",
+      "PARA_VALOR": "rhormazabal@cmds.cl",
+      "PARA_DOMINIO": ""
+    },
+    {
+      "PARA_COD": "CORREOS_OCULTO",
+      "PARA_DESC": "Lista de correos ocultos a notificar o N/D en caso de no desear BCC",
+      "PARA_VALOR": "fernando.cabrera@pad.cl,alberto.romero@pad.cl,lcorrea@pad.cl",
+      "PARA_DOMINIO": ""
+    },
+    {
+      "PARA_COD": "ENABLEFILEHANDLER",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "FALSE",
+      "PARA_DOMINIO": ""
+    },
+    {
+      "PARA_COD": "ENABLEFIREHANDLER",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "FALSE",
+      "PARA_DOMINIO": ""
+    },
+    {
+      "PARA_COD": "ENABLESTDOUTHANDLER",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "TRUE",
+      "PARA_DOMINIO": ""
+    },
+    {
+      "PARA_COD": "ENABLEWEBPROCESOR",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "TRUE",
+      "PARA_DOMINIO": ""
+    },
+    {
+      "PARA_COD": "FMT_MSG_GEN",
+      "PARA_DESC": "Formato para el nombre del archivo de trace general. % se reemplazara por fecha.",
+      "PARA_VALOR": "msg_PDIR_%.log",
+      "PARA_DOMINIO": ""
+    },
+    {
+      "PARA_COD": "LEVELFILEHANDLER",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "400",
+      "PARA_DOMINIO": ""
+    },
+    {
+      "PARA_COD": "LEVELFIREHANDLER",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "400",
+      "PARA_DOMINIO": ""
+    },
+    {
+      "PARA_COD": "LEVELSTDOUTHANDLER",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "400",
+      "PARA_DOMINIO": ""
+    },
+    {
+      "PARA_COD": "LOGGERNAME",
+      "PARA_DESC": "Config (monolog)->PADLogger",
+      "PARA_VALOR": "PORTALDIR",
+      "PARA_DOMINIO": ""
+    },
+    {
+      "PARA_COD": "PATH_MSG_GEN",
+      "PARA_DESC": "Path para los archivos de trace general",
+      "PARA_VALOR": "PADTRACE",
+      "PARA_DOMINIO": ""
+    },
+    {
+      "PARA_COD": "VER_DASHBOARD_CMDS",
+      "PARA_DESC": "Indica si se debe o no mostrar dashboard de CMDS propetario",
+      "PARA_VALOR": "S",
+      "PARA_DOMINIO": ""
+    }
+  ],
+  "pdir_dominios": [
+    {
+      "DOMI_NOMBRE": "DM_TIPO_PERIODO",
+      "DOMI_COD": "SM",
+      "DOMI_DESC": "Semestral"
+    },
+    {
+      "DOMI_NOMBRE": "DM_TIPO_PERIODO",
+      "DOMI_COD": "TR",
+      "DOMI_DESC": "Trimestral"
+    },
+    {
+      "DOMI_NOMBRE": "DM_TIPO_PERI_SM",
+      "DOMI_COD": "01",
+      "DOMI_DESC": "1er Semestre"
+    },
+    {
+      "DOMI_NOMBRE": "DM_TIPO_PERI_SM",
+      "DOMI_COD": "02",
+      "DOMI_DESC": "2do Semestre"
+    },
+    {
+      "DOMI_NOMBRE": "DM_TIPO_PERI_SM",
+      "DOMI_COD": "03",
+      "DOMI_DESC": "Anual"
+    },
+    {
+      "DOMI_NOMBRE": "DM_TIPO_PERI_TR",
+      "DOMI_COD": "01",
+      "DOMI_DESC": "1er Trimestre"
+    },
+    {
+      "DOMI_NOMBRE": "DM_TIPO_PERI_TR",
+      "DOMI_COD": "02",
+      "DOMI_DESC": "2do Trimestre"
+    },
+    {
+      "DOMI_NOMBRE": "DM_TIPO_PERI_TR",
+      "DOMI_COD": "03",
+      "DOMI_DESC": "3er Trimestre"
+    },
+    {
+      "DOMI_NOMBRE": "DM_TIPO_PERI_TR",
+      "DOMI_COD": "04",
+      "DOMI_DESC": "Anual"
+    }
+  ],
+  "eta_menu_apps": [
+    {
+      "APLI_ID": "0",
+      "APLI_DESC": "Inicio",
+      "APLI_LABEL": "Inicio",
+      "APLI_PADRE": "",
+      "APLI_LINK": "inicio",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "1",
+      "APLI_DESC": "Plantillas",
+      "APLI_LABEL": "Plantillas",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "16",
+      "APLI_DESC": "Sistema",
+      "APLI_LABEL": "Sistema",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "2",
+      "APLI_DESC": "Encuestas",
+      "APLI_LABEL": "Encuestas",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "3",
+      "APLI_DESC": "Mantenedores",
+      "APLI_LABEL": "Mantenedores",
+      "APLI_PADRE": "",
+      "APLI_LINK": "",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "40",
+      "APLI_DESC": "Dashboard",
+      "APLI_LABEL": "Dashboard",
+      "APLI_PADRE": "",
+      "APLI_LINK": "form_dashboard",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "999",
+      "APLI_DESC": "Salir",
+      "APLI_LABEL": "Salir",
+      "APLI_PADRE": "",
+      "APLI_LINK": "login",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "10",
+      "APLI_DESC": "Definicion Encuestas",
+      "APLI_LABEL": "Definicion Encuestas",
+      "APLI_PADRE": "1",
+      "APLI_LINK": "grid_plantilla_encuesta",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "44",
+      "APLI_DESC": "Encuesta normal",
+      "APLI_LABEL": "Encuesta normal",
+      "APLI_PADRE": "11",
+      "APLI_LINK": "grid_encuestas",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "45",
+      "APLI_DESC": "Encuesta anonima",
+      "APLI_LABEL": "Encuesta anonima",
+      "APLI_PADRE": "11",
+      "APLI_LINK": "grid_encuestas_anonima",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "17",
+      "APLI_DESC": "Roles",
+      "APLI_LABEL": "Roles",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "roles_grid",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "8",
+      "APLI_DESC": "Perfiles",
+      "APLI_LABEL": "Perfiles",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "grid_mantenedor_perfiles",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "9",
+      "APLI_DESC": "Usuarios",
+      "APLI_LABEL": "Usuarios",
+      "APLI_PADRE": "16",
+      "APLI_LINK": "usuarios_grid",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "11",
+      "APLI_DESC": "Crear Encuesta",
+      "APLI_LABEL": "Crear Encuesta",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "grid_encuestas",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "24",
+      "APLI_DESC": "Asignar",
+      "APLI_LABEL": "Asignar",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "25",
+      "APLI_DESC": "Listar",
+      "APLI_LABEL": "Listar",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "27",
+      "APLI_DESC": "Cerrar Encuesta",
+      "APLI_LABEL": "Cerrar Encuesta",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "28",
+      "APLI_DESC": "Evaluacion Encuestas",
+      "APLI_LABEL": "Evaluacion Encuestas",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "31",
+      "APLI_DESC": "Encuesta Historico",
+      "APLI_LABEL": "Encuesta Historico",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "grid_encuestas_historico",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "43",
+      "APLI_DESC": "Encuestas para revision",
+      "APLI_LABEL": "Encuestas para revision",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "grid_revision_encuestas",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "46",
+      "APLI_DESC": "Crear Lista Anonima",
+      "APLI_LABEL": "Crear Lista Anonima",
+      "APLI_PADRE": "2",
+      "APLI_LINK": "lista_anonima_grid",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "12",
+      "APLI_DESC": "Encuesta a Usuario",
+      "APLI_LABEL": "Encuestas de Usuario",
+      "APLI_PADRE": "24",
+      "APLI_LINK": "grid_agrupar_encuesta_usuario",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "13",
+      "APLI_DESC": "Encuesta a Digitador",
+      "APLI_LABEL": "Encuestas a Digitador",
+      "APLI_PADRE": "24",
+      "APLI_LINK": "grid_agrupar_encuesta_digitador",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "47",
+      "APLI_DESC": "Encuestas Anonimas",
+      "APLI_LABEL": "Encuestas Anonimas",
+      "APLI_PADRE": "24",
+      "APLI_LINK": "agregar_usuarios_anonimos_grid",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "15",
+      "APLI_DESC": "Estado Usuario Encuestas",
+      "APLI_LABEL": "Estado Usuario Encuestas",
+      "APLI_PADRE": "25",
+      "APLI_LINK": "grid_estado_usuarios_encuestas",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "26",
+      "APLI_DESC": "Respuestas",
+      "APLI_LABEL": "Respuestas",
+      "APLI_PADRE": "25",
+      "APLI_LINK": "grid_encuesta_listar_respuestas",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "30",
+      "APLI_DESC": "Respuestas a Excel",
+      "APLI_LABEL": "Respuestas a Excel",
+      "APLI_PADRE": "25",
+      "APLI_LINK": "grid_encuesta_listar_respuesta_archivo",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "48",
+      "APLI_DESC": "Respuestas  Anonimas a Excel",
+      "APLI_LABEL": "Respuestas  Anonimas a Excel",
+      "APLI_PADRE": "25",
+      "APLI_LINK": "respuestas_anonimas_exel_grid",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "22",
+      "APLI_DESC": "Crear Evaluacion",
+      "APLI_LABEL": "Crear Evaluacion",
+      "APLI_PADRE": "28",
+      "APLI_LINK": "agrupar_encuestas_evaluacion_grid",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "29",
+      "APLI_DESC": "Ejecutar evaluacion",
+      "APLI_LABEL": "Ejecutar evaluacion",
+      "APLI_PADRE": "28",
+      "APLI_LINK": "grid_agrupar_encuestas_ejecutar",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "20",
+      "APLI_DESC": "Tipo Encuestas",
+      "APLI_LABEL": "Tipo Encuestas",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "grid_mantenedor_tipo_encuesta",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "21",
+      "APLI_DESC": "Tipo Pregunta",
+      "APLI_LABEL": "Tipo Pregunta",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "grid_mantenedor_tipo_pregunta",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "41",
+      "APLI_DESC": "Mantenedor de preguntas",
+      "APLI_LABEL": "Mantenedor de preguntas",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "grid_mantenedor_preguntas",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "5",
+      "APLI_DESC": "Tipo Objetos",
+      "APLI_LABEL": "Tipo Objetos",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "grid_mantenedor_tipo_objeto",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "6",
+      "APLI_DESC": "Objetos",
+      "APLI_LABEL": "Objetos",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "grid_mantenedor_objeto",
+      "APLI_AYUDA": ""
+    },
+    {
+      "APLI_ID": "7",
+      "APLI_DESC": "Motivos de Rechazos",
+      "APLI_LABEL": "Motivo de Rechazos",
+      "APLI_PADRE": "3",
+      "APLI_LINK": "grid_mantenedor_motivo_rechazo",
+      "APLI_AYUDA": ""
+    }
+  ],
+  "eta_parametros": [
+    {
+      "PARA_CODIGO": "CLIENT_KEY",
+      "PARA_DESC": "Indetificador de sistema frente a AUTH",
+      "PARA_VALOR": "7AD2-2T6N-N878-75FN-A7CS-9TES-SE90-E3SS"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_CLIENT_ID",
+      "PARA_DESC": "Cliente ID para debug LOGIN~SERVICES (separados por : antes y despues)",
+      "PARA_VALOR": ":FALSE~FALSE:"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_CLIENT_INFO",
+      "PARA_DESC": "Cliente INFO para debug TERMINAL~OS~SERVICE (separados por : antes y despues)",
+      "PARA_VALOR": ":FALSE~FALSE~FALSE:"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_LEVEL",
+      "PARA_DESC": "Parametro que indica el nivel de Debug a realizar. Ver PKG_DEBUG",
+      "PARA_VALOR": "7"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_MODE",
+      "PARA_DESC": "Indica los usuarios (separados por : antes y despues) que se le debe hacer Debug (FALSE => NO)",
+      "PARA_VALOR": ":FALSE:"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_MODE_TRACE",
+      "PARA_DESC": "Indica donde se debe realizar el trace (FILE, ORACLE)",
+      "PARA_VALOR": "FILE"
+    },
+    {
+      "PARA_CODIGO": "DEBUG_TRACE_LEVEL",
+      "PARA_DESC": "Parametro que indica el nivel de trace a realizar con SET EVENTS=10938 en el package de Debug",
+      "PARA_VALOR": "1"
+    },
+    {
+      "PARA_CODIGO": "FMT_MSG_GEN",
+      "PARA_DESC": "Formato para el nombre del archivo de trace general. % se reemplazara por fecha.",
+      "PARA_VALOR": "msg_ETA_%.log"
+    },
+    {
+      "PARA_CODIGO": "PATH_MSG_GEN",
+      "PARA_DESC": "Path para los archivos de trace general",
+      "PARA_VALOR": "PADTRACE"
+    }
+  ],
+  "eta_perfiles": [
+    {
+      "PERF_ID": "1",
+      "PERF_DESC": "ADMINISTRADOR"
+    },
+    {
+      "PERF_ID": "21",
+      "PERF_DESC": "PRUEBA"
+    },
+    {
+      "PERF_ID": "3",
+      "PERF_DESC": "TEST"
+    }
+  ],
+  "eta_roles": [
+    {
+      "ROLE_ID": "1",
+      "ROLE_DESC": "ADMINISTRADOR"
+    },
+    {
+      "ROLE_ID": "2",
+      "ROLE_DESC": "TEST"
+    }
+  ]
+}

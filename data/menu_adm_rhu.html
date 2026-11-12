@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+
+<html DIR='LTR' style="height: 100%">
+<head>
+ <title>CMDS RRHH</title>
+ <META http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="shortcut icon" href="../_lib/img/sys__NM__bg__NM__cmds-fav.png">
+ <META http-equiv="Expires" content="Fri, Jan 01 1900 00:00:00 GMT" />
+ <META http-equiv="Last-Modified" content="Tue, 10 Nov 2026 18:02:51 GMT" />
+ <META http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+ <META http-equiv="Cache-Control" content="post-check=0, pre-check=0" />
+ <META http-equiv="Pragma" content="no-cache" />
+  
+ <link rel="stylesheet" type="text/css" href="../_lib/css/cmds_app_template/cmds_app_template_btngrp.css?scp=375ab07d6bd71a2edd08c3afd7a591e2" /> 
+ <link rel="stylesheet" type="text/css" href="../_lib/css/cmds_app_template/cmds_app_template_menuHLTR.css" /> 
+ <link rel="stylesheet" type="text/css" href="../_lib/css/cmds_app_template/cmds_app_template_menuH.css?scp=c97a0c9ca3089deb7aa6de1d46b3d045" /> 
+ <link rel="stylesheet" type="text/css" href="../_lib/buttons/cmds_botones/cmds_botones.css" /> 
+ <link rel="stylesheet" href="/cmds_rhu_prod/_lib/prod/third/font-awesome/6/css/all.min.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../_lib/css/_menuTheme/sys_Gleam_cmds_menu_hor_LTR.css" />
+<style>
+   .scTabText {
+   }    </style>
+<script type="text/javascript">
+ var is_menu_vertical = false;
+  function sc_session_redir(url_redir)
+ {
+     if (window.parent && window.parent.document != window.document && typeof window.parent.sc_session_redir === 'function')
+     {
+         window.parent.sc_session_redir(url_redir);
+     }
+     else
+     {
+         if (window.opener && typeof window.opener.sc_session_redir === 'function')
+         {
+             window.close();
+             window.opener.sc_session_redir(url_redir);
+         }
+         else
+         {
+             window.location = url_redir;
+         }
+     }
+ }
+</script>
+</head>
+<body style="height: 100%" scroll="no" class='scMenuHPage'>
+<link rel="stylesheet" type="text/css" href="../_lib/libraries/sys/fontawesome/css/font-awesome.css"><script type="text/javascript" src="/cmds_rhu_prod/_lib/prod/third/jquery/js/jquery.js"></script>
+<script type="text/javascript" src="../_lib/lib/js/menu_structure.js"></script>
+<script type="text/javascript" src="/cmds_rhu_prod/_lib/prod/third/sweetalert/sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="/cmds_rhu_prod/_lib/prod/third/sweetalert/polyfill.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../_lib/css/cmds_app_template/cmds_app_template_sweetalert.css" />
+<script type="text/javascript" src="menu_message.js"></script>
+<script type="text/javascript" src="../_lib/lib/js/frameControl.js"></script>
+<script type="text/javascript">
+$(function() {
+});
+</script>
+<script>
+$(document).ready(function() {
+});
+
+function expandMenu()
+{
+    $('#idMenuHeader').hide();
+    $('#idMenuLine').hide();
+    $('#id_toolbar').hide();
+    $('#id_expand').hide();
+    $('#id_collapse').show();
+}
+
+function collapseMenu()
+{
+    $('#idMenuHeader').show();
+    $('#idMenuLine').show();
+    $('#id_toolbar').show();
+    $('#id_expand').show();
+    $('#id_collapse').hide();
+}
+Iframe_atual = "menu_iframe";
+function writeFastMenu(arr_link)
+{
+  return false;
+}
+function clearFastMenu(arr_link)
+{
+  return false;
+}
+        function checkSubMenuPosition(str_id)
+        {
+            submenu = $('#' + str_id + '.menu__link').next('ul');
+            if(submenu.length)
+            {
+                if(submenu.offset().left + submenu.outerWidth() > $('#main_menu_table').width())
+                {
+                    submenu.css('margin-left', ( $('#main_menu_table').width() - submenu.offset().left - submenu.outerWidth() - 10 ));
+                }
+           }
+        }function openMenuItem(str_id)
+{
+  if (str_id != "iframe_menu")
+  {
+      str_id        = str_id.replace("menu_","");
+  }
+    if($('#Iframe_control').length && $('#' + str_id).parent().length < 0)
+    {
+        $('#Iframe_control').append('<iframe id="iframe_btn_1" name="menu_btn_1_iframe" frameborder="0" class="scMenuIframe" style="display: none;" src=""></iframe>');
+    }
+  if($('#' + str_id).parent().length)
+  {
+      if(!$('#' + str_id).parent().hasClass('menu__item--active'))
+      {
+        $('#' + str_id).closest('ul').find('li').removeClass('menu__item--active');
+      }
+       $('#' + str_id).parent().toggleClass('menu__item--active');
+  }
+  str_link   = $('#' + str_id).attr('item-href');
+  str_target = $('#' + str_id).attr('item-target');
+  if (typeof str_link !== typeof undefined && str_link !== false) {
+    str_id = str_id.replace('iframe_menu', 'menu');
+    //test link type
+    if (str_link != '' && str_link != '#' && str_link != 'javascript:')
+    {
+        if (str_link.substring(0, 11) == 'javascript:')
+        {
+            eval(str_link.substring(11));
+        }
+        else if (str_link != '#' && str_target != '_parent')
+        {
+            window.open(str_link, str_target);
+        }
+        else if (str_link != '#' && str_target == '_parent')
+        {
+            document.location = str_link;
+        }
+            }
+    if(str_target != '_blank' && $('#iframe_menu').length)
+        $('#iframe_menu')[0].contentWindow.focus();
+  }
+}
+</script>
+<table id="main_menu_table" align='left' style="border-collapse: collapse; border-width: 0px; height:100%; width: 100%; position: absolute" cellpadding=0 cellspacing=0>
+  <tr id='idMenuHeader'>
+    <td style="padding: 0px" valign="top" >
+<style type='text/css'>
+    /*#lin1_col1 { font-size:22px; width:500px; color: #585858; } */
+    #lin1_col2 { font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:right; color: #585858; }
+    #lin2_col1 { font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:15px; color: #585858; }
+    #lin2_col2 { font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:right; color: #585858; }
+    /*Custom*/
+    .scMenuHHeaderFont { text-align: center; }
+    .scMenuHHeader { background-color: #ffffff; border-color: #ffffff; }
+    ul#css3menu1 li.topmenu>a { background-color: #631d51; }
+    ul#css3menu1 li.topmenu:hover>a, ul#css3menu1 li.topmenu a.pressed { border-color: #ffffff transparent transparent transparent; }
+    ul#css3menu1 a { padding: 9px 18px 10px !important; }
+    ul#css3menu1 ul a { border-color: #e2e2e2; border-width: 0px 2px 1px 0px;}
+    ul#css3menu1 ul li:hover>a, ul#css3menu1 ul li a.pressed { border-color: #e2e2e2; }
+    ul#css3menu1 img { margin-top: -4px; }
+  	#timeOutWarningOverlay { position: fixed; display: none; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.5); z-index: 2000; cursor: pointer; }
+    #keep { padding-top: 10px; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:center; color: #dbdbdb; font-weight: 700; }
+</style>
+<div id='timeOutWarningOverlay'>
+    <div style='height:auto; width:400px; background-color:#631D51; color:#dbdbdb; position: fixed;top: 50%;left: 50%; -webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);padding:10px; text-align:center; border-radius: 8px; box-shadow: 4px 4px 6px;'> 
+        <div>
+            <p><b>Su sesión está a punto de caducar. Por favor, haga clic en el botón de abajo para continuar.</b></p>
+            <p><b><span style='background-color:#FFFFFF; color:#000000;'>00:</span><span id='time' style='background-color:#FFFFFF; color:#000000;'>59</span></b></p>
+        </div>
+        <button><a id='keep' href='#' style='color: #000000;'>Seguir Trabajando</a></button>
+    </div>
+</div>
+<script type='text/javascript'>
+    var counter = 60;
+    var idleTime = 0;
+    var countdown;
+    $(document).ready(function () {
+        $(document).click(function () {
+            console.log('click has occured');
+            idleTime = 0;
+        });
+        $(document).keyup(function () {
+            console.log('key up has occured');
+            idleTime = 0;
+        });
+        $("iframe").on('load', function() {
+            $(this).contents().on("mousedown, mouseup, click", function() {
+                console.log('iside evet occured');
+                idleTime = 0;
+            });
+            $(this).contents().on("keyup", function() {
+                console.log('iside evet occured');
+                //if (event.keyCode == 9) { console.log('tab'); }
+                idleTime = 0;
+            });
+        });
+        var idleInterval = setInterval(timerIncrement, 60000); //found
+        $('#keep').click(function () {
+            idleTime = 0;
+            $('#timeOutWarningOverlay').hide();
+        });
+    });
+    
+    function timerIncrement() {
+        idleTime = idleTime + 1;
+        console.log(idleTime);
+        if (idleTime > 23) {
+            $('#timeOutWarningOverlay').show();
+            startTimer();
+        }
+        if (idleTime > 24) { 
+            window.location.href = '../login/';
+            alert('Su sesión ha expirado debido a que no hay actividad.');
+        }
+    };
+    function startTimer() {
+        countdown = setInterval(countDownClock, 1000);
+    };
+    function countDownClock() {
+        counter = counter - 1
+        if (counter < 10) {
+            console.log(counter);
+            $('#time').text('0' + counter);
+        }
+        else {
+            console.log(counter);
+            $('#time').text(counter);
+        }
+        if (counter == 0) {
+            counter = 60;
+            clearInterval(countdown);
+            console.log(counter);
+            console.log('done');
+        }
+    };
+</script>
+<table width="100%" height="50px" class="scMenuHHeader">
+    <tr>
+        <td width="1%"></td>
+        <td width="10%" class="scMenuHHeaderFont">   <IMG SRC="/cmds_rhu_prod/_lib/img/sys__NM__bg__NM__cmds_logo.jpg" BORDER="0"/></td>
+        <td width="75%" class="scMenuHHeaderFont"><!--<span id="lin1_col1"></span><br />--><span id="lin2_col1">CORPORACIÓN MUNICIPAL DESARROLLO SOCIAL ANTOFAGASTA</span></td>
+        <td width="12%">
+            <table width="100%">
+              <tr>  
+                <td width="1%" align="center">
+                  <span class="fa fa-user"></span>
+                </td>
+                <td width="99%" align="left">
+                  <span id="lin1_col2">10633447</span>
+                </td>
+              </tr>
+              <tr>  
+                <td>
+                  <span class="fa fa-calendar"></span>
+                </td>
+                <td>
+                  <span id="lin2_col2" align="left">
+10-11-2026</span>
+                </td>
+              </tr>
+            </table>
+        </td>
+        <td width="1%"></td>
+    </tr>
+</table>
+    </td>
+  </tr>
+  <tr class="scMenuHTableCssAlt" id='idMenuLine'>
+        <td align='left' valign="top" style="width:100%; height:30;padding: 0px;" id='idMenuCell'>
+    <div id="scScrollFix" style="height: 1px"></div>
+<script type="text/javascript">
+function fnScrollFix() {
+ if($('#css3menu1 li').length > 0)
+ {
+     var txt = document.getElementById("scScrollFix").innerHTML;
+     if ("&nbsp;" == txt) { txt = "&nbsp;&nbsp;"; } else { txt = "&nbsp;"; }
+     document.getElementById("scScrollFix").innerHTML = txt;
+ }
+ setTimeout("fnScrollFix()", 1000);
+}
+setTimeout("fnScrollFix()", 1000);
+</script>
+<div id="idDivMenu">
+    
+<table style='width:100%' cellspacing='0' cellpadding='0'><tr>
+    <td align='left'>
+  <div class='mainmenu menu--horizontal'>
+      <div class='menu__toggle'>
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      <div class='menu__container '>
+        <ul id="css3menu1" class="topmenu menu__list" style="" >
+                        <li class='menu__item topmenu topfirst'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_888');" item-href="menu_form_php.php?sc_item_menu=888&sc_apl_menu=menu_v&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="888" title=""  item-target="_parent"  class='menu__link '><img src="../_lib/img/scriptcase__NM__ico__NM__sc_menu_grid3_e.png" border="0" />Menu vertical</a>
+                                                      </li>
+                                    <li class='menu__item topmenu toproot'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('2');"  onclick="openMenuItem('menu_2');" item-href="#" id="2" title=""  item-target="_self"  class='menu__link '><span><img src="../_lib/img/scriptcase__NM__ico__NM__businesspeople_24.png" border="0" />Personal</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('9');"  onclick="openMenuItem('menu_9');" item-href="#" id="9" title=""  item-target="_self"  class='menu__link '><span>Reclutamiento y Selección</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_56');" item-href="menu_form_php.php?sc_item_menu=56&sc_apl_menu=publicar_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="56" title=""  item-target="menu_iframe"  class='menu__link '>Publicar</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_57');" item-href="menu_form_php.php?sc_item_menu=57&sc_apl_menu=buscar_postulante_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="57" title=""  item-target="menu_iframe"  class='menu__link '>Buscar Postulante</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_174');" item-href="menu_form_php.php?sc_item_menu=174&sc_apl_menu=dashboard_buscar_cv_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="174" title=""  item-target="menu_iframe"  class='menu__link '>Buscar Curriculum</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('175');"  onclick="openMenuItem('menu_175');" item-href="#" id="175" title=""  item-target="_self"  class='menu__link '><span>Personal APS</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_176');" item-href="menu_form_php.php?sc_item_menu=176&sc_apl_menu=blank_dashboard_publicar_aps&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="176" title=""  item-target="menu_iframe"  class='menu__link '>Publicar Ofertas APS</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_177');" item-href="menu_form_php.php?sc_item_menu=177&sc_apl_menu=blank_dashboard_ofertas_aps_publicadas&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="177" title=""  item-target="menu_iframe"  class='menu__link '>Ofertas APS publicadas</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_178');" item-href="menu_form_php.php?sc_item_menu=178&sc_apl_menu=grid_litigios_cmds&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="178" title=""  item-target="menu_iframe"  class='menu__link '>Informar litigios CMDS</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                                        </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('10');"  onclick="openMenuItem('menu_10');" item-href="#" id="10" title=""  item-target="_self"  class='menu__link '><span>Contratacion</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_58');" item-href="menu_form_php.php?sc_item_menu=58&sc_apl_menu=ficha_personal_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="58" title=""  item-target="menu_iframe"  class='menu__link '>Ficha Personal</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_60');" item-href="menu_form_php.php?sc_item_menu=60&sc_apl_menu=contratos_pendientes_dashboard_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="60" title=""  item-target="menu_iframe"  class='menu__link '>Contratos Pendientes</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_61');" item-href="menu_form_php.php?sc_item_menu=61&sc_apl_menu=contrato_notificaciones_dashboard_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="61" title=""  item-target="menu_iframe"  class='menu__link '>Notificación Contrato</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_144');" item-href="menu_form_php.php?sc_item_menu=144&sc_apl_menu=dashboard_carta_termino_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="144" title=""  item-target="menu_iframe"  class='menu__link '>Carta Termino</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_11');" item-href="menu_form_php.php?sc_item_menu=11&sc_apl_menu=Finiquito_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="11" title=""  item-target="menu_iframe"  class='menu__link '>Finiquito</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('12');"  onclick="openMenuItem('menu_12');" item-href="#" id="12" title=""  item-target="_self"  class='menu__link '><span>Licencias - Orden Reposo</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_62');" item-href="menu_form_php.php?sc_item_menu=62&sc_apl_menu=dashboard_licencias_principal&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="62" title=""  item-target="menu_iframe"  class='menu__link '>Registrar Licencias</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_63');" item-href="menu_form_php.php?sc_item_menu=63&sc_apl_menu=dashboard_busqueda_lice_paradesc_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="63" title=""  item-target="menu_iframe"  class='menu__link '>Licencias para Descuento</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_64');" item-href="menu_form_php.php?sc_item_menu=64&sc_apl_menu=dashboard_informe_licencias_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="64" title=""  item-target="menu_iframe"  class='menu__link '>Informe Licencias Diarias</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_65');" item-href="menu_form_php.php?sc_item_menu=65&sc_apl_menu=form_RHU_LICE_MEDICA_6Mf_iltro_restore&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="65" title=""  item-target="menu_iframe"  class='menu__link '>Notificaciones Descuento</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_66');" item-href="menu_form_php.php?sc_item_menu=66&sc_apl_menu=abrir_carga_licencia&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="66" title=""  item-target="menu_iframe"  class='menu__link '>Pagos de licencia(s)</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_67');" item-href="menu_form_php.php?sc_item_menu=67&sc_apl_menu=archivos_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="67" title=""  item-target="menu_iframe"  class='menu__link '>Detalle de Carga</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_68');" item-href="menu_form_php.php?sc_item_menu=68&sc_apl_menu=dashboard_busqueda_lice_pagas_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="68" title=""  item-target="menu_iframe"  class='menu__link '>Licencias Pagadas</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_69');" item-href="menu_form_php.php?sc_item_menu=69&sc_apl_menu=dashboard_informe_estadisticas_licencias_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="69" title=""  item-target="menu_iframe"  class='menu__link '>Estadísticas de Licencia</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_166');" item-href="menu_form_php.php?sc_item_menu=166&sc_apl_menu=principal_carga_masiva_lice_estado_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="166" title=""  item-target="menu_iframe"  class='menu__link '>Carga Estado Licencias</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_167');" item-href="menu_form_php.php?sc_item_menu=167&sc_apl_menu=principal_archivos_cargados_lice_estado_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="167" title=""  item-target="menu_iframe"  class='menu__link '>Procesado Estado Licencias</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('13');"  onclick="openMenuItem('menu_13');" item-href="#" id="13" title=""  item-target="_self"  class='menu__link '><span>Permisos</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_70');" item-href="menu_form_php.php?sc_item_menu=70&sc_apl_menu=grid_permiso_principal&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="70" title=""  item-target="menu_iframe"  class='menu__link '>Solicitudes Permiso</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_71');" item-href="menu_form_php.php?sc_item_menu=71&sc_apl_menu=permiso_principal_jefedirecto_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="71" title=""  item-target="menu_iframe"  class='menu__link '>Validacion Permiso</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_72');" item-href="menu_form_php.php?sc_item_menu=72&sc_apl_menu=permiso_principal_sge_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="72" title=""  item-target="menu_iframe"  class='menu__link '>Segunda Validacion</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('14');"  onclick="openMenuItem('menu_14');" item-href="#" id="14" title=""  item-target="_self"  class='menu__link '><span>Vacaciones</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_73');" item-href="menu_form_php.php?sc_item_menu=73&sc_apl_menu=vacaciones_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="73" title=""  item-target="menu_iframe"  class='menu__link '>Solicitudes Vacaciones</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_74');" item-href="menu_form_php.php?sc_item_menu=74&sc_apl_menu=vacaciones_jefedirecto_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="74" title=""  item-target="menu_iframe"  class='menu__link '>Validacion Vacaciones</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_75');" item-href="menu_form_php.php?sc_item_menu=75&sc_apl_menu=vacaciones_sge_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="75" title=""  item-target="menu_iframe"  class='menu__link '>Segunda Aprobacion Vacaciones</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('15');"  onclick="openMenuItem('menu_15');" item-href="#" id="15" title=""  item-target="_self"  class='menu__link '><span>Capacitación</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_76');" item-href="menu_form_php.php?sc_item_menu=76&sc_apl_menu=iniciacion_capacitacion_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="76" title=""  item-target="menu_iframe"  class='menu__link '>Iniciación Curso</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_77');" item-href="menu_form_php.php?sc_item_menu=77&sc_apl_menu=grid_CAPACITACION_CREAR_CURSO&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="77" title=""  item-target="menu_iframe"  class='menu__link '>Asignación de Información</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_78');" item-href="menu_form_php.php?sc_item_menu=78&sc_apl_menu=grid_CAPACITACION_ASIGNAR_PARTICIPANTES&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="78" title=""  item-target="menu_iframe"  class='menu__link '>Asignar Participantes</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_79');" item-href="menu_form_php.php?sc_item_menu=79&sc_apl_menu=grid_CAPACITACION_SEGUIMIENTO_CURSO&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="79" title=""  item-target="menu_iframe"  class='menu__link '>Seguimientos de Cursos</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_142');" item-href="menu_form_php.php?sc_item_menu=142&sc_apl_menu=grid_HISTORIAL_CURSO&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="142" title=""  item-target="menu_iframe"  class='menu__link '>Historial capacitación</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('16');"  onclick="openMenuItem('menu_16');" item-href="#" id="16" title=""  item-target="_self"  class='menu__link '><span>Prevención</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_80');" item-href="menu_form_php.php?sc_item_menu=80&sc_apl_menu=grid_PREVENCION_CREAR_CURSO&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="80" title=""  item-target="menu_iframe"  class='menu__link '>Crear Curso</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_81');" item-href="menu_form_php.php?sc_item_menu=81&sc_apl_menu=grid_PREVENCION_ASIGNAR_PARTICIPANTES&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="81" title=""  item-target="menu_iframe"  class='menu__link '>Asignar Participantes</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_82');" item-href="menu_form_php.php?sc_item_menu=82&sc_apl_menu=grid_PREVENCION_SEGUIMIENTO_CURSO&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="82" title=""  item-target="menu_iframe"  class='menu__link '>Seguimientos de Cursos</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_83');" item-href="menu_form_php.php?sc_item_menu=83&sc_apl_menu=entrega_epp_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="83" title=""  item-target="menu_iframe"  class='menu__link '>Entrega de EPP</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_84');" item-href="menu_form_php.php?sc_item_menu=84&sc_apl_menu=reunion_comite_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="84" title=""  item-target="menu_iframe"  class='menu__link '>Reunión Comité</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_85');" item-href="menu_form_php.php?sc_item_menu=85&sc_apl_menu=grid_PREVENCION_REGISTRO_ACCIDENTE&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="85" title=""  item-target="menu_iframe"  class='menu__link '>Registro de Accidentes</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_86');" item-href="menu_form_php.php?sc_item_menu=86&sc_apl_menu=Seleccion_documento_control&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="86" title=""  item-target="menu_iframe"  class='menu__link '>Selección Documento</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('17');"  onclick="openMenuItem('menu_17');" item-href="#" id="17" title=""  item-target="_self"  class='menu__link '><span>Beneficio</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_89');" item-href="menu_form_php.php?sc_item_menu=89&sc_apl_menu=sala_cuna_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="89" title=""  item-target="menu_iframe"  class='menu__link '>Sala Cuna</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_90');" item-href="menu_form_php.php?sc_item_menu=90&sc_apl_menu=dashboard_busqueda_sala_cuna_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="90" title=""  item-target="menu_iframe"  class='menu__link '>Asignar Sala Cuna</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_147');" item-href="menu_form_php.php?sc_item_menu=147&sc_apl_menu=sala_cuna_termino_dashboard_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="147" title=""  item-target="menu_iframe"  class='menu__link '>Termino Sala Cuna</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_148');" item-href="menu_form_php.php?sc_item_menu=148&sc_apl_menu=ofrecimiento_sala_cuna_dashboard_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="148" title=""  item-target="menu_iframe"  class='menu__link '>Ofrecimiento Sala Cuna</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_168');" item-href="menu_form_php.php?sc_item_menu=168&sc_apl_menu=dashboard_cuota_mortuoria&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="168" title=""  item-target="menu_iframe"  class='menu__link '>Beneficio Cuota Mortuoria</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_169');" item-href="menu_form_php.php?sc_item_menu=169&sc_apl_menu=dashboard_beneficio_medico&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="169" title=""  item-target="menu_iframe"  class='menu__link '>Beneficio Médico</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_171');" item-href="menu_form_php.php?sc_item_menu=171&sc_apl_menu=generar_nomina_salacu_control&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="171" title=""  item-target="menu_iframe"  class='menu__link '>Reportes Sala Cuna</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_18');" item-href="menu_form_php.php?sc_item_menu=18&sc_apl_menu=bienestar_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="18" title=""  item-target="menu_iframe"  class='menu__link '>Bienestar</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_19');" item-href="menu_form_php.php?sc_item_menu=19&sc_apl_menu=ODI_GRID&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="19" title=""  item-target="menu_iframe"  class='menu__link '>ODI</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_20');" item-href="menu_form_php.php?sc_item_menu=20&sc_apl_menu=denuncia_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="20" title=""  item-target="menu_iframe"  class='menu__link '>Denuncia - Demanda</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('21');"  onclick="openMenuItem('menu_21');" item-href="#" id="21" title=""  item-target="_self"  class='menu__link '><span>Carrera Funcionaria</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_91');" item-href="menu_form_php.php?sc_item_menu=91&sc_apl_menu=capacitacion_individual_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="91" title=""  item-target="menu_iframe"  class='menu__link '>Capacitación Individual</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_92');" item-href="menu_form_php.php?sc_item_menu=92&sc_apl_menu=carrera_funcionaria_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="92" title=""  item-target="menu_iframe"  class='menu__link '>Historial Carrera Funcionaria</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                                        </ul>
+                            </li>
+                                            <li class='menu__item topmenu toproot'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('3');"  onclick="openMenuItem('menu_3');" item-href="#" id="3" title=""  item-target="_self"  class='menu__link '><span><img src="../_lib/img/scriptcase__NM__ico__NM__calculator_24.png" border="0" />Remuneraciones</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('22');"  onclick="openMenuItem('menu_22');" item-href="#" id="22" title=""  item-target="_self"  class='menu__link '><span>Anticipo</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_93');" item-href="menu_form_php.php?sc_item_menu=93&sc_apl_menu=anticipo_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="93" title=""  item-target="menu_iframe"  class='menu__link '>Solicitudes Anticipo</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_94');" item-href="menu_form_php.php?sc_item_menu=94&sc_apl_menu=anticipo_jefedirecto_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="94" title=""  item-target="menu_iframe"  class='menu__link '>Validacion Anticipo</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_95');" item-href="menu_form_php.php?sc_item_menu=95&sc_apl_menu=anticipo_sge_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="95" title=""  item-target="menu_iframe"  class='menu__link '>Segunda Validacion Anticipo</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_23');" item-href="menu_form_php.php?sc_item_menu=23&sc_apl_menu=periodo_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="23" title=""  item-target="menu_iframe"  class='menu__link '>Periodo</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_24');" item-href="menu_form_php.php?sc_item_menu=24&sc_apl_menu=modalidad_calculo_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="24" title=""  item-target="menu_iframe"  class='menu__link '>Modalidad de Cálculo</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_25');" item-href="menu_form_php.php?sc_item_menu=25&sc_apl_menu=grupos_variables_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="25" title=""  item-target="menu_iframe"  class='menu__link '>Grupos Variables</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('26');"  onclick="openMenuItem('menu_26');" item-href="#" id="26" title=""  item-target="_self"  class='menu__link '><span>Configuracion Variables</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_96');" item-href="menu_form_php.php?sc_item_menu=96&sc_apl_menu=modalidad_calculo_periodo_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="96" title=""  item-target="menu_iframe"  class='menu__link '>Modalidad de Cálculo - Período</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_97');" item-href="menu_form_php.php?sc_item_menu=97&sc_apl_menu=modalidad_calculo_grupos_variables_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="97" title=""  item-target="menu_iframe"  class='menu__link '>Modalidad de Cálculo - Grupos de Variables</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_98');" item-href="menu_form_php.php?sc_item_menu=98&sc_apl_menu=modalidad_calculo_agrupar_variables_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="98" title=""  item-target="menu_iframe"  class='menu__link '>Modalidad de Cálculo - Agrupar Variables</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_99');" item-href="menu_form_php.php?sc_item_menu=99&sc_apl_menu=administrar_variables_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="99" title=""  item-target="menu_iframe"  class='menu__link '>Administrar Variables</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_100');" item-href="menu_form_php.php?sc_item_menu=100&sc_apl_menu=formulas_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="100" title=""  item-target="menu_iframe"  class='menu__link '>Formulas</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_27');" item-href="menu_form_php.php?sc_item_menu=27&sc_apl_menu=variables_sistema_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="27" title=""  item-target="menu_iframe"  class='menu__link '>Variables Sistema</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_28');" item-href="menu_form_php.php?sc_item_menu=28&sc_apl_menu=rela_institucion_grid_new&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="28" title=""  item-target="menu_iframe"  class='menu__link '>Instituciones Previsionales</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('29');"  onclick="openMenuItem('menu_29');" item-href="#" id="29" title=""  item-target="_self"  class='menu__link '><span>Haberes y Descuentos</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_101');" item-href="menu_form_php.php?sc_item_menu=101&sc_apl_menu=cargar_habydesc_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="101" title=""  item-target="menu_iframe"  class='menu__link '>Administrar</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_102');" item-href="menu_form_php.php?sc_item_menu=102&sc_apl_menu=archivo_hd_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="102" title=""  item-target="menu_iframe"  class='menu__link '>Proceso Carga Archivos</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('30');"  onclick="openMenuItem('menu_30');" item-href="#" id="30" title=""  item-target="_self"  class='menu__link '><span>Cambio Masiva Salud-AFP</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_103');" item-href="menu_form_php.php?sc_item_menu=103&sc_apl_menu=abrir_carga_SAF&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="103" title=""  item-target="menu_iframe"  class='menu__link '>Administrar</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_104');" item-href="menu_form_php.php?sc_item_menu=104&sc_apl_menu=archivos_SAF_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="104" title=""  item-target="menu_iframe"  class='menu__link '>Proceso Carga Archivos</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('31');"  onclick="openMenuItem('menu_31');" item-href="#" id="31" title=""  item-target="_self"  class='menu__link '><span>Carga Familiar Masiva</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_105');" item-href="menu_form_php.php?sc_item_menu=105&sc_apl_menu=cargar_fami_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="105" title=""  item-target="menu_iframe"  class='menu__link '>Carga Masiva</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_106');" item-href="menu_form_php.php?sc_item_menu=106&sc_apl_menu=archivo_f_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="106" title=""  item-target="menu_iframe"  class='menu__link '>Detalle Aprobacion</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_32');" item-href="menu_form_php.php?sc_item_menu=32&sc_apl_menu=bienios_personal_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="32" title=""  item-target="menu_iframe"  class='menu__link '>Nomina Bienios</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('33');"  onclick="openMenuItem('menu_33');" item-href="#" id="33" title=""  item-target="_self"  class='menu__link '><span>Procesar Remuneraciones</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_107');" item-href="menu_form_php.php?sc_item_menu=107&sc_apl_menu=proceso_remu_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="107" title=""  item-target="menu_iframe"  class='menu__link '>Procesar</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_108');" item-href="menu_form_php.php?sc_item_menu=108&sc_apl_menu=graficas_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="108" title=""  item-target="menu_iframe"  class='menu__link '>Estadística de Liquidaciones</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_165');" item-href="menu_form_php.php?sc_item_menu=165&sc_apl_menu=reporte_remuneraciones_control&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="165" title=""  item-target="menu_iframe"  class='menu__link '>Reporte resultado proceso</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_109');" item-href="menu_form_php.php?sc_item_menu=109&sc_apl_menu=dashboard_agrupacion_calculo_renta&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="109" title=""  item-target="menu_iframe"  class='menu__link '>Generar y procesar nómina</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('130');"  onclick="openMenuItem('menu_130');" item-href="#" id="130" title=""  item-target="_self"  class='menu__link '><span>Asignación Familiar</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_132');" item-href="menu_form_php.php?sc_item_menu=132&sc_apl_menu=cargar_asig_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="132" title=""  item-target="menu_iframe"  class='menu__link '>Carga Masiva</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_133');" item-href="menu_form_php.php?sc_item_menu=133&sc_apl_menu=archivo_af_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="133" title=""  item-target="menu_iframe"  class='menu__link '>Detalle de Aprobación</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_131');" item-href="menu_form_php.php?sc_item_menu=131&sc_apl_menu=devolucion_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="131" title=""  item-target="menu_iframe"  class='menu__link '>Devoluciones</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item topmenu toproot'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('4');"  onclick="openMenuItem('menu_4');" item-href="#" id="4" title=""  item-target="_self"  class='menu__link '><span><img src="../_lib/img/scriptcase__NM__ico__NM__document_24.png" border="0" />Reportes</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_34');" item-href="menu_form_php.php?sc_item_menu=34&sc_apl_menu=liquidacion_sueldo_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="34" title=""  item-target="menu_iframe"  class='menu__link '>Liquidacion de Sueldo</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('35');"  onclick="openMenuItem('menu_35');" item-href="#" id="35" title=""  item-target="_self"  class='menu__link '><span>Certificados de Renta</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_110');" item-href="menu_form_php.php?sc_item_menu=110&sc_apl_menu=grid_RHU_CERTIFICADO_RENTA&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="110" title=""  item-target="menu_iframe"  class='menu__link '>Trabajador</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_111');" item-href="menu_form_php.php?sc_item_menu=111&sc_apl_menu=certificado_1887_control&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="111" title=""  item-target="menu_iframe"  class='menu__link '>Empresa</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_36');" item-href="menu_form_php.php?sc_item_menu=36&sc_apl_menu=libro_remuneraciones_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="36" title=""  item-target="menu_iframe"  class='menu__link '>Libro de remuneraciones</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_127');" item-href="menu_form_php.php?sc_item_menu=127&sc_apl_menu=reporte_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="127" title=""  item-target="menu_iframe"  class='menu__link '>Configurar Reporte</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_128');" item-href="menu_form_php.php?sc_item_menu=128&sc_apl_menu=base_renta_control&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="128" title=""  item-target="menu_iframe"  class='menu__link '>Base Renta</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_129');" item-href="menu_form_php.php?sc_item_menu=129&sc_apl_menu=periodo_ano_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="129" title=""  item-target="menu_iframe"  class='menu__link '>Caja</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('134');"  onclick="openMenuItem('menu_134');" item-href="#" id="134" title=""  item-target="_self"  class='menu__link '><span>Base Personal </span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_145');" item-href="menu_form_php.php?sc_item_menu=145&sc_apl_menu=base_personal_control&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="145" title=""  item-target="menu_iframe"  class='menu__link '>Resumen</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_146');" item-href="menu_form_php.php?sc_item_menu=146&sc_apl_menu=base_personal_ext_control&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="146" title=""  item-target="menu_iframe"  class='menu__link '>Extendido</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_137');" item-href="menu_form_php.php?sc_item_menu=137&sc_apl_menu=reporte_supereduc_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="137" title=""  item-target="menu_iframe"  class='menu__link '>Emitir Libro Súper Intendencia Educación</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_138');" item-href="menu_form_php.php?sc_item_menu=138&sc_apl_menu=reporte_previred_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="138" title=""  item-target="menu_iframe"  class='menu__link '>Libro Previred</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_139');" item-href="menu_form_php.php?sc_item_menu=139&sc_apl_menu=resumen_remuneracion_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="139" title=""  item-target="menu_iframe"  class='menu__link '>Resumen proceso renumeraciones</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_140');" item-href="menu_form_php.php?sc_item_menu=140&sc_apl_menu=carta_termino_control&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="140" title=""  item-target="menu_iframe"  class='menu__link '>Carta de Término</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_141');" item-href="menu_form_php.php?sc_item_menu=141&sc_apl_menu=resumen_liqui_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="141" title=""  item-target="menu_iframe"  class='menu__link '>Liquidaciones de sueldo por periodo</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_172');" item-href="menu_form_php.php?sc_item_menu=172&sc_apl_menu=dashboard_titularidad_docente_principal&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="172" title=""  item-target="menu_iframe"  class='menu__link '>Titularidad docente</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item topmenu toproot'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('5');"  onclick="openMenuItem('menu_5');" item-href="#" id="5" title=""  item-target="_self"  class='menu__link '><span><img src="../_lib/img/scriptcase__NM__ico__NM__folder_24.png" border="0" />Mantenedores</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('122');"  onclick="openMenuItem('menu_122');" item-href="#" id="122" title=""  item-target="_self"  class='menu__link '><span>Personal</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_37');" item-href="menu_form_php.php?sc_item_menu=37&sc_apl_menu=contractual_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="37" title=""  item-target="menu_iframe"  class='menu__link '>Contractual</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_38');" item-href="menu_form_php.php?sc_item_menu=38&sc_apl_menu=dominio_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="38" title=""  item-target="menu_iframe"  class='menu__link '>Dominio</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_39');" item-href="menu_form_php.php?sc_item_menu=39&sc_apl_menu=empresa_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="39" title=""  item-target="menu_iframe"  class='menu__link '>Empresa</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_40');" item-href="menu_form_php.php?sc_item_menu=40&sc_apl_menu=epp_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="40" title=""  item-target="menu_iframe"  class='menu__link '>EPP</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_115');" item-href="menu_form_php.php?sc_item_menu=115&sc_apl_menu=permiso_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="115" title=""  item-target="menu_iframe"  class='menu__link '>Permiso</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_42');" item-href="menu_form_php.php?sc_item_menu=42&sc_apl_menu=representante_legal_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="42" title=""  item-target="menu_iframe"  class='menu__link '>Representante Legal</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_45');" item-href="menu_form_php.php?sc_item_menu=45&sc_apl_menu=establecimiento_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="45" title=""  item-target="menu_iframe"  class='menu__link '>Establecimiento</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_116');" item-href="menu_form_php.php?sc_item_menu=116&sc_apl_menu=personas_firmas&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="116" title=""  item-target="menu_iframe"  class='menu__link '>Firmas</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_49');" item-href="menu_form_php.php?sc_item_menu=49&sc_apl_menu=mantenedor_relacion_establecimiento_centro_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="49" title=""  item-target="menu_iframe"  class='menu__link '>Establecimiento-Centro Costo</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_50');" item-href="menu_form_php.php?sc_item_menu=50&sc_apl_menu=grid_RHU_COMITE_PARITARIO&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="50" title=""  item-target="menu_iframe"  class='menu__link '>Comité Paritario</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_51');" item-href="menu_form_php.php?sc_item_menu=51&sc_apl_menu=autorizar_excepcion_mantenedor_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="51" title=""  item-target="menu_iframe"  class='menu__link '>Autorizar Excepciones</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_150');" item-href="menu_form_php.php?sc_item_menu=150&sc_apl_menu=mantenedor_contratos_ley_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="150" title=""  item-target="menu_iframe"  class='menu__link '>Contratos por ley</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_164');" item-href="menu_form_php.php?sc_item_menu=164&sc_apl_menu=mantenedor_odi_por_cargo_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="164" title=""  item-target="menu_iframe"  class='menu__link '>ODI por cargo</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('125');"  onclick="openMenuItem('menu_125');" item-href="#" id="125" title=""  item-target="_self"  class='menu__link '><span>Remuneraciones</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('126');"  onclick="openMenuItem('menu_126');" item-href="#" id="126" title=""  item-target="_self"  class='menu__link '><span>Centro de costo</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_123');" item-href="menu_form_php.php?sc_item_menu=123&sc_apl_menu=grupo_centro_costo_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="123" title=""  item-target="menu_iframe"  class='menu__link '>Grupo</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_44');" item-href="menu_form_php.php?sc_item_menu=44&sc_apl_menu=centro_costo_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="44" title=""  item-target="menu_iframe"  class='menu__link '>Centro Costos</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_124');" item-href="menu_form_php.php?sc_item_menu=124&sc_apl_menu=cuenta_super_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="124" title=""  item-target="menu_iframe"  class='menu__link '>Plan de Cuentas SuperEduc</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_46');" item-href="menu_form_php.php?sc_item_menu=46&sc_apl_menu=dias_feriados_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="46" title=""  item-target="menu_iframe"  class='menu__link '>Días Feriados</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_47');" item-href="menu_form_php.php?sc_item_menu=47&sc_apl_menu=factores_pedido_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="47" title=""  item-target="menu_iframe"  class='menu__link '>Factores Periodo</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_117');" item-href="menu_form_php.php?sc_item_menu=117&sc_apl_menu=bienios_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="117" title=""  item-target="menu_iframe"  class='menu__link '>Bienios</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_118');" item-href="menu_form_php.php?sc_item_menu=118&sc_apl_menu=bono_responsabilidad_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="118" title=""  item-target="menu_iframe"  class='menu__link '>Bonos de Responsabilidad</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_119');" item-href="menu_form_php.php?sc_item_menu=119&sc_apl_menu=escala_sueldo_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="119" title=""  item-target="menu_iframe"  class='menu__link '>Escala de sueldos</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_120');" item-href="menu_form_php.php?sc_item_menu=120&sc_apl_menu=fondo_retiro_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="120" title=""  item-target="menu_iframe"  class='menu__link '>Fondo de Retiro</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_121');" item-href="menu_form_php.php?sc_item_menu=121&sc_apl_menu=valor_hora_docente_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="121" title=""  item-target="menu_iframe"  class='menu__link '>Valor Hora Docente</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_136');" item-href="menu_form_php.php?sc_item_menu=136&sc_apl_menu=JORN_SEMANAL_FORM&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="136" title=""  item-target="menu_iframe"  class='menu__link '>Jornada Semanal</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('43');"  onclick="openMenuItem('menu_43');" item-href="#" id="43" title=""  item-target="_self"  class='menu__link '><span>Carga Masiva</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_112');" item-href="menu_form_php.php?sc_item_menu=112&sc_apl_menu=plantilla_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="112" title=""  item-target="menu_iframe"  class='menu__link '>Plantilla</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_113');" item-href="menu_form_php.php?sc_item_menu=113&sc_apl_menu=abrir_carga&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="113" title=""  item-target="menu_iframe"  class='menu__link '>Iniciar Carga</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_135');" item-href="menu_form_php.php?sc_item_menu=135&sc_apl_menu=sindicato_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="135" title=""  item-target="menu_iframe"  class='menu__link '>Sindicatos y Fundaciones</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_48');" item-href="menu_form_php.php?sc_item_menu=48&sc_apl_menu=servidor_smtp_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="48" title=""  item-target="menu_iframe"  class='menu__link '>Servidor SMTP</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_143');" item-href="menu_form_php.php?sc_item_menu=143&sc_apl_menu=cargo_sector_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="143" title=""  item-target="menu_iframe"  class='menu__link '>Cargos por Sector</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_173');" item-href="menu_form_php.php?sc_item_menu=173&sc_apl_menu=firma_documento_encargado_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="173" title=""  item-target="menu_iframe"  class='menu__link '>Firma encargado documento</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item topmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_6');" item-href="menu_form_php.php?sc_item_menu=6&sc_apl_menu=grid_RHU_EVALUACION&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="6" title=""  item-target="menu_iframe"  class='menu__link '><img src="../_lib/img/scriptcase__NM__ico__NM__address_book2_24.png" border="0" />Evaluacion Desempeño</a>
+                                                      </li>
+                                    <li class='menu__item topmenu toproot'>
+                                    <a href="javascript:" onmouseover="checkSubMenuPosition('7');"  onclick="openMenuItem('menu_7');" item-href="#" id="7" title=""  item-target="_self"  class='menu__link '><span><img src="../_lib/img/scriptcase__NM__ico__NM__gear_24.png" border="0" />Sistema</span></a>
+                                    <ul class='menu__submenu' style=''>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_52');" item-href="menu_form_php.php?sc_item_menu=52&sc_apl_menu=roles_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="52" title=""  item-target="menu_iframe"  class='menu__link '>Roles</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_53');" item-href="menu_form_php.php?sc_item_menu=53&sc_apl_menu=usuarios_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="53" title=""  item-target="menu_iframe"  class='menu__link '>Usuarios</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_54');" item-href="menu_form_php.php?sc_item_menu=54&sc_apl_menu=sistemas_grid&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="54" title=""  item-target="menu_iframe"  class='menu__link '>Procesos</a>
+                                                      </li>
+                                    <li class='menu__item  menu__item--withsubmenu'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_55');" item-href="menu_form_php.php?sc_item_menu=55&sc_apl_menu=noti_app_form&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="55" title=""  item-target="menu_iframe"  class='menu__link '>Notificaciones</a>
+                                                      </li>
+                                                </ul>
+                            </li>
+                                            <li class='menu__item topmenu toplast'>
+                                    <a href="javascript:"  onclick="openMenuItem('menu_8');" item-href="menu_form_php.php?sc_item_menu=8&sc_apl_menu=login&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo=" id="8" title=""  item-target="_parent"  class='menu__link '><img src="../_lib/img/scriptcase__NM__ico__NM__exit_24.png" border="0" />Salir</a>
+                                                      </li>
+                            </ul>
+      </div>
+  </div>
+</td>
+</tr></table>
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td id="Iframe_control_td" style="border-width: 1px; height: 100%; padding: 0px;vertical-align:top;text-align:center;">
+    <div id="Iframe_control" style='width:100%; height:100%; margin:0px; padding:0px;'>
+      <iframe id="iframe_menu" name="menu_iframe" frameborder="0" class="scMenuIframe" style="width: 100%; height: 100%;"  src=""  onclick="openMenuItem('iframe_menu');" item-href="menu_form_php.php?sc_item_menu=menu&sc_apl_menu=inicio_blank&sc_apl_link=%2Fcmds_rhu_prod%2F&sc_usa_grupo="  item-target="menu_iframe"></iframe>
+</div></td>
+  </tr>
+  <tr>
+    <td style="padding: 0px" >
+<style>
+    #lin1_col1_footer { padding-top: 4px; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:center; color: #dbdbdb; overflow:hidden; }			 
+    #lin1_col2_footer { padding-top: 4px; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:center; color: #dbdbdb; }
+    #lin1_col3_footer { padding-top: 4px; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:center; color: #dbdbdb; }
+    a:-webkit-any-link {
+        color: #dbdbdb;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    a:visited { color: #dbdbdb; }
+    a:link {
+     color: #dbdbdb; ;
+    }
+</style>
+<div style="width: 100%">
+    <div style="height:20px; background-color:#631d51; display: block">
+        <table style="width:100%; border-collapse:collapse; padding:0;">
+    	    <tr>
+        	    <td id="lin1_col1_footer"  width="300"><span>SISTEMA: RRHH</span></td>
+                <td id="lin1_col2_footer" ><a href="http://www.padsol.com/" target="_blank">CMDS - PAD Systems</a></td>
+                <td id="lin1_col3_footer"  width="300"><span>VERSIÓN: 1.0.15</span></td>
+            </tr>
+        </table>		 
+    </div>
+</div>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+<script>   document.getElementById('iframe_menu').click()</script>
